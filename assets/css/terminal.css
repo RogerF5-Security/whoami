@@ -319,6 +319,8 @@ h3 {
 .timeline,
 .skills-grid,
 .cert-grid,
+.badge-grid,
+.evidence-grid,
 .two-column,
 .projects-grid,
 .contact-grid,
@@ -445,6 +447,90 @@ h3 {
   background: rgba(9, 16, 18, 0.9);
   color: var(--text-soft);
   line-height: 1.45;
+}
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.badge-card {
+  min-height: 235px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 0.75rem;
+  padding: 1.1rem;
+  border: 1px solid rgba(53, 215, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(12, 21, 24, 0.88);
+  text-align: center;
+}
+
+.badge-card:hover,
+.badge-card:focus-visible {
+  border-color: rgba(57, 255, 20, 0.4);
+  background: rgba(57, 255, 20, 0.06);
+  text-decoration: none;
+}
+
+.badge-card img {
+  width: 104px;
+  height: 104px;
+  object-fit: contain;
+}
+
+.badge-card strong {
+  color: var(--text);
+  line-height: 1.35;
+}
+
+.badge-card span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.evidence-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.evidence-card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  overflow: hidden;
+  border: 1px solid rgba(53, 215, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(12, 21, 24, 0.88);
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.18);
+}
+
+.evidence-card img {
+  width: 100%;
+  aspect-ratio: 16 / 12;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 1px solid rgba(53, 215, 255, 0.16);
+}
+
+.evidence-card div {
+  display: grid;
+  gap: 0.75rem;
+  align-content: start;
+  padding: 1.15rem;
+}
+
+.evidence-card h3 {
+  margin: 0;
+  color: var(--text);
+}
+
+.evidence-card p {
+  margin: 0;
+  color: var(--text-soft);
+  line-height: 1.65;
 }
 
 .two-column {
@@ -766,12 +852,14 @@ h3 {
   .summary-grid,
   .skills-grid,
   .cert-grid,
+  .badge-grid,
   .contact-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .two-column,
-  .projects-grid {
+  .projects-grid,
+  .evidence-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -841,6 +929,7 @@ h3 {
   .summary-grid,
   .skills-grid,
   .cert-grid,
+  .badge-grid,
   .contact-grid {
     grid-template-columns: 1fr;
   }

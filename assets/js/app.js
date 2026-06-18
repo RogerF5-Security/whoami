@@ -82,10 +82,10 @@
     renderInto(
       "heroFacts",
       [
-        ["Experiencia", "Offensive Security Consultant desde agosto 2023"],
-        ["Especialidad", "Pentesting web, movil, APIs, infraestructura y ATMs"],
-        ["Automation", "Python para auditorias, fuzzing, reporting y PoC"],
-        ["Hardware", "Flipper Zero, WiFi Pineapple, BadUSB y Rubber Ducky"]
+        ["Rol actual", "Seguridad ofensiva y desarrollo seguro en telco"],
+        ["Especialidad", "Pentesting web, APIs, infraestructura y codigo seguro"],
+        ["Automation", "Python para auditorias, reporting, herramientas y PoC"],
+        ["Comunidad", "Speaker Pwn3dCON y facilitador en NicaSecurity"]
       ]
         .map(([title, text]) => `<div class="fact"><strong>${escapeHtml(title)}</strong><span>${escapeHtml(text)}</span></div>`)
         .join("")
@@ -97,9 +97,9 @@
         ["Identidad", `${profile.identity.name} / ${profile.identity.handle}. ${profile.identity.role}.`],
         ["Ubicacion", `${profile.identity.location}. Espanol nativo e ingles basico.`],
         ["Mision", profile.identity.tagline],
-        ["Alcance", "Auditorias autorizadas sobre web, movil, APIs, infraestructura y ATMs."],
-        ["Desarrollo", "Herramientas Python para automatizar reconocimiento, fuzzing, explotacion controlada y reportes."],
-        ["Hardware", "Laboratorios con WiFi Pineapple, BadUSB, Rubber Ducky, USB Army y Flipper Zero."]
+        ["Alcance", "Escaneo de vulnerabilidades, pentesting, revision de codigo seguro y hardening."],
+        ["Desarrollo", "Herramientas Python, automatizaciones y estrategias de ciberseguridad."],
+        ["Comunidad", "Speaker en Pwn3dCON y facilitador de talleres TechClinics en NicaSecurity."]
       ]
         .map(([title, text]) => `<article class="info-card"><strong>${escapeHtml(title)}</strong><p>${escapeHtml(text)}</p></article>`)
         .join("")
@@ -132,6 +132,35 @@
     renderInto(
       "certificationGrid",
       profile.cv.training.map((item) => `<div class="cert-item">${escapeHtml(item)}</div>`).join("")
+    );
+
+    renderInto(
+      "credlyGrid",
+      profile.credlyBadges
+        .map(
+          (badge) => `<a class="badge-card" href="${escapeHtml(badge.url)}" target="_blank" rel="noreferrer">
+            <img src="${escapeHtml(badge.image)}" alt="${escapeHtml(badge.name)} badge" loading="lazy" />
+            <strong>${escapeHtml(badge.name)}</strong>
+            <span>${escapeHtml(badge.issuer)}</span>
+          </a>`
+        )
+        .join("")
+    );
+
+    renderInto(
+      "communityGrid",
+      profile.community
+        .map(
+          (item) => `<article class="evidence-card">
+            <img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" />
+            <div>
+              <span class="status-pill">${escapeHtml(item.role)}</span>
+              <h3>${escapeHtml(item.title)}</h3>
+              <p>${escapeHtml(item.topic)}</p>
+            </div>
+          </article>`
+        )
+        .join("")
     );
 
     renderInto(

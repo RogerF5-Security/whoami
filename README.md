@@ -21,18 +21,18 @@ rogerf5@security:~$ whoami --full
 IDENTITY : Roger Fernando Arana Lemus
 HANDLE   : Roger F5
 LOCATION : Zacapa, Guatemala
-ROLE     : Ingeniero en Sistemas | Consultor y Auditor en Ciberseguridad
+ROLE     : Ingeniero en Sistemas | Ingeniero en Seguridad Ofensiva y Desarrollo Seguro
 MODE     : Authorized offensive security | Python automation | Hardware hacking
 MISSION  : Recon faster. Validate deeper. Report cleaner. Harden smarter.
 
-CERTS    : CPTE | CEHP | Cisco Ethical Hacker | Fortinet NSE 1
+CERTS    : CPTE | CEHP | CCEP | Cisco Ethical Hacker | Fortinet NSE 1
 ```
 
 ## Professional Profile
 
-Roger Fernando Arana Lemus is a systems engineer, cybersecurity consultant and offensive security auditor focused on authorized assessments for web, mobile, API, infrastructure and ATM environments.
+Roger Fernando Arana Lemus is a systems engineer focused on offensive security, secure development, vulnerability management, pentesting and cybersecurity tooling.
 
-Since **August 2023**, he has worked as an **Offensive Security Consultant** in a private company, combining practical vulnerability validation with Python-based tooling, audit automation and hardware hacking labs.
+Since **November 2025**, he has worked as **Ingeniero en Seguridad Ofensiva y Desarrollo Seguro** in a private telco company, combining vulnerability scanning, pentesting, secure code review, internal tooling and cybersecurity strategy.
 
 Public contact is routed through professional profiles. Personal phone and email from the source CV are intentionally not exposed in this public repository.
 
@@ -70,15 +70,22 @@ Public contact is routed through professional profiles. Personal phone and email
 
 ## Experience
 
+### Ingeniero en Seguridad Ofensiva y Desarrollo Seguro - Private Telco Company
+
+**November 2025 - Present**
+
+- Vulnerability scanning and pentesting for web applications, APIs and infrastructure.
+- Secure code review and secure development support.
+- Development of internal tools, automations and cybersecurity strategies.
+- Support for offensive security operations and preventive security improvement.
+
 ### Offensive Security Consultant - Private Company
 
-**August 2023 - Present**
+**August 2023 - November 2025**
 
 - Authorized offensive security assessments for web, mobile, API, infrastructure and ATM environments.
 - Vulnerability scanning, validation and controlled exploitation.
-- Python tooling for audit automation, fuzzing, exploit validation, reporting and hardware hacking scripts.
 - Hardening review and secure configuration recommendations.
-- Hardware hacking labs with WiFi Pineapple, BadUSB, Rubber Ducky, USB Army and Flipper Zero.
 
 ## Education
 
@@ -92,6 +99,18 @@ Public contact is routed through professional profiles. Personal phone and email
 - Mile2 CPTE - Certified Penetration Testing Engineer (2024).
 - Cisco Ethical Hacker (2024).
 - Mile2 CEHP - Certified Ethical Hacker Professional (2024).
+- Certified Cybersecurity Educator Professional - CCEP, Red Team Leaders (2025).
+- ATM Penetration Testing & Security Assessment, Red Team Leaders (2026).
+- Hardware Hacking Introduction, Red Team Leaders (2026).
+- Master in Prompt Engineering and AI, Red Team Leaders (2026).
+- LFS101: Introduction to Linux, The Linux Foundation (2026).
+- Microsoft AI Skills Fest 2026.
+- Microsoft Learn - Microsoft 365 Copilot Chat achievements (2026).
+- Control efectivo de la corrupcion - America Latina (2025).
+- Introduccion a la seguridad de la informacion (2025).
+- Proteccion de datos personales en America Movil (2025).
+- Programa de Integridad y Cumplimiento (2025).
+- Codigo de Etica (2025).
 - Udemy Curso de Domotica (07-2023).
 - Cisco Introduction to Cybersecurity (04-2023).
 - Fortinet Network Security Expert 1 (04-2023).
@@ -113,6 +132,18 @@ Public contact is routed through professional profiles. Personal phone and email
 - Google Activate Certificacion en Comercio Electronico (04-2020).
 - SoloLearn Fundamentos de SQL (03-2019).
 - SoloLearn Fundamentos de HTML (03-2018).
+
+## Credly Badges
+
+- [AI Skills Fest 2026 - Microsoft](https://www.credly.com/badges/2f0d9868-9fa9-4125-95a0-e2565339439a)
+- [LFS101: Introduction to Linux - The Linux Foundation](https://www.credly.com/badges/22dc45c8-4039-4579-9a14-a61f489636eb)
+- [Ethical Hacker - Cisco](https://www.credly.com/badges/9139a68e-205e-4115-b6c7-bc311beb5873)
+- [Introduction to Cybersecurity - Cisco](https://www.credly.com/badges/d0c93c68-0255-45f9-a55f-6a3be7c1373b)
+
+## Community
+
+- **Pwn3dCON Community Sessions - Speaker:** Explorando la seguridad web: introduccion a Burp Suite y herramientas clave.
+- **NicaSecurity Hub TechClinics - Facilitador:** Fundamentos y metodologias de Hardware Hacking - Ciclo 05, taller de 10 horas en 4 sesiones.
 
 ## Languages
 

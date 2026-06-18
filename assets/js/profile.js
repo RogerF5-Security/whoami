@@ -4,7 +4,7 @@ window.WHOAMI_PROFILE = {
     handle: "Roger F5",
     github: "RogerF5-Security",
     location: "Zacapa, Guatemala",
-    role: "Ingeniero en Sistemas | Consultor y Auditor en Ciberseguridad",
+    role: "Ingeniero en Sistemas | Ingeniero en Seguridad Ofensiva y Desarrollo Seguro",
     tagline: "Recon faster. Validate deeper. Report cleaner. Harden smarter.",
     mode: "Authorized offensive security | Python automation | Hardware hacking"
   },
@@ -19,6 +19,10 @@ window.WHOAMI_PROFILE = {
       items: ["Python security tooling", "Audit automation", "Fuzzing", "Exploit validation scripts", "HTML/XLSX/JSON reporting"]
     },
     {
+      area: "Secure Development",
+      items: ["Secure code review", "Secure SDLC", "Security strategy", "Vulnerability management", "Developer guidance"]
+    },
+    {
       area: "Hardware Labs",
       items: ["Flipper Zero", "WiFi Pineapple", "BadUSB", "Rubber Ducky", "USB Army"]
     },
@@ -28,21 +32,29 @@ window.WHOAMI_PROFILE = {
     }
   ],
   bio: [
-    "Roger Fernando Arana Lemus, tambien conocido como Roger F5, es Ingeniero en Sistemas, consultor y auditor en ciberseguridad basado en Zacapa, Guatemala.",
-    "Desde agosto de 2023 trabaja como Offensive Security Consultant en empresa privada, con foco en pentesting web, movil, APIs, infraestructura y ATMs.",
+    "Roger Fernando Arana Lemus, tambien conocido como Roger F5, es Ingeniero en Sistemas, Ingeniero en Seguridad Ofensiva y Desarrollo Seguro basado en Zacapa, Guatemala.",
+    "Actualmente trabaja en una empresa privada telco, con foco en escaneo de vulnerabilidades, pentesting web/API/infraestructura, revision de codigo seguro, herramientas internas y estrategias de ciberseguridad.",
     "Construye herramientas propias en Python para automatizar auditorias, fuzzing, validacion de vulnerabilidades, explotacion controlada y laboratorios de hardware hacking."
   ],
   cv: {
     summary: [
       "Nombre: Roger Fernando Arana Lemus.",
       "Ubicacion: Zacapa, Guatemala.",
-      "Perfil: Ingeniero en Sistemas | Consultor y Auditor en Ciberseguridad.",
-      "Especialidad: pentesting web, movil, APIs, infraestructura, ATMs, automatizacion de auditorias y hardware hacking.",
-      "Certificaciones principales: Mile2 CPTE, Mile2 CEHP, Cisco Ethical Hacker, Fortinet NSE 1."
+      "Perfil: Ingeniero en Sistemas | Ingeniero en Seguridad Ofensiva y Desarrollo Seguro.",
+      "Especialidad: pentesting web, movil, APIs, infraestructura, ATMs, revision de codigo seguro, automatizacion de auditorias y hardware hacking.",
+      "Certificaciones principales: Mile2 CPTE, Mile2 CEHP, Cisco Ethical Hacker, Fortinet NSE 1, CCEP."
     ],
     experience: [
       {
-        title: "Offensive Security Consultant - Empresa privada | Agosto 2023 - Actualidad",
+        title: "Ingeniero en Seguridad Ofensiva y Desarrollo Seguro - Empresa privada telco | Noviembre 2025 - Actualidad",
+        lines: [
+          "Ejecucion de escaneos de vulnerabilidades y pentesting sobre aplicaciones web, APIs e infraestructura.",
+          "Revision de codigo seguro y apoyo a practicas de desarrollo seguro.",
+          "Elaboracion de herramientas internas, automatizaciones y estrategias de ciberseguridad para fortalecer la postura ofensiva y preventiva."
+        ]
+      },
+      {
+        title: "Offensive Security Consultant - Empresa privada | Agosto 2023 - Noviembre 2025",
         lines: [
           "Ejecucion de auditorias de seguridad ofensiva sobre aplicaciones web, moviles, APIs, infraestructura y ATMs.",
           "Escaneo, validacion y explotacion controlada de vulnerabilidades en entornos autorizados.",
@@ -74,6 +86,18 @@ window.WHOAMI_PROFILE = {
       "Mile2 CPTE - Certified Penetration Testing Engineer (2024).",
       "Cisco Ethical Hacker (2024).",
       "Mile2 CEHP - Certified Ethical Hacker Professional (2024).",
+      "Certified Cybersecurity Educator Professional - CCEP, Red Team Leaders (2025).",
+      "ATM Penetration Testing & Security Assessment, Red Team Leaders (2026).",
+      "Hardware Hacking Introduction, Red Team Leaders (2026).",
+      "Master in Prompt Engineering and AI, Red Team Leaders (2026).",
+      "LFS101: Introduction to Linux, The Linux Foundation (2026).",
+      "Microsoft AI Skills Fest 2026.",
+      "Microsoft Learn - Microsoft 365 Copilot Chat achievements (2026).",
+      "Control efectivo de la corrupcion - America Latina (2025).",
+      "Introduccion a la seguridad de la informacion (2025).",
+      "Proteccion de datos personales en America Movil (2025).",
+      "Programa de Integridad y Cumplimiento (2025).",
+      "Codigo de Etica (2025).",
       "Udemy Curso de Domotica (07-2023).",
       "Cisco Introduction to Cybersecurity (04-2023).",
       "Fortinet Network Security Expert 1 (04-2023).",
@@ -98,6 +122,46 @@ window.WHOAMI_PROFILE = {
     ],
     languages: ["Espanol - Nativo", "Ingles - Basico"]
   },
+  community: [
+    {
+      title: "Pwn3dCON Community Sessions",
+      role: "Speaker",
+      topic: "Explorando la seguridad web: introduccion a Burp Suite y herramientas clave.",
+      image: "assets/img/evidence/pwn3dcon-web-security.jpeg"
+    },
+    {
+      title: "NicaSecurity Hub - TechClinics",
+      role: "Facilitador / Tallerista",
+      topic: "Fundamentos y metodologias de Hardware Hacking - Ciclo 05. Taller de 10 horas en 4 sesiones.",
+      image: "assets/img/evidence/nicasecurity-hardware-hacking.jpeg"
+    }
+  ],
+  credlyBadges: [
+    {
+      name: "AI Skills Fest 2026",
+      issuer: "Microsoft",
+      url: "https://www.credly.com/badges/2f0d9868-9fa9-4125-95a0-e2565339439a",
+      image: "https://images.credly.com/images/082c8d0c-5232-4597-b6c4-6bebcc4f3046/blob"
+    },
+    {
+      name: "LFS101: Introduction to Linux",
+      issuer: "The Linux Foundation",
+      url: "https://www.credly.com/badges/22dc45c8-4039-4579-9a14-a61f489636eb",
+      image: "https://images.credly.com/images/97a95d07-04c3-4afb-952a-6bcf46ddb87e/blob"
+    },
+    {
+      name: "Ethical Hacker",
+      issuer: "Cisco",
+      url: "https://www.credly.com/badges/9139a68e-205e-4115-b6c7-bc311beb5873",
+      image: "https://images.credly.com/images/242902b5-f527-42ad-865e-977c9e1b5b58/image.png"
+    },
+    {
+      name: "Introduction to Cybersecurity",
+      issuer: "Cisco",
+      url: "https://www.credly.com/badges/d0c93c68-0255-45f9-a55f-6a3be7c1373b",
+      image: "https://images.credly.com/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png"
+    }
+  ],
   projects: [
     {
       name: "RF5 RECON",
