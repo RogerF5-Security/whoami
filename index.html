@@ -5,59 +5,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content=">_whoami - portafolio interactivo tipo terminal de Roger Arana / Roger F5."
+      content="CV profesional e interactivo de Roger Fernando Arana Lemus, Roger F5."
     />
     <meta name="theme-color" content="#050708" />
-    <meta property="og:title" content=">_whoami | Roger F5" />
+    <meta property="og:title" content="Roger F5 | Cybersecurity Portfolio" />
     <meta
       property="og:description"
-      content="Terminal interactiva para CV, proyectos, habilidades y contacto en ciberseguridad."
+      content="Consultor y auditor en ciberseguridad: pentesting, automatizacion Python y hardware hacking."
     />
     <meta property="og:type" content="website" />
-    <title>&gt;_whoami | Roger F5 Security</title>
+    <title>Roger F5 | Cybersecurity Portfolio</title>
     <link rel="stylesheet" href="assets/css/terminal.css" />
   </head>
   <body data-theme="green">
-    <div id="boot" class="boot-screen" aria-live="polite" aria-label="Secuencia de arranque">
+    <div id="boot" class="boot-screen" aria-live="polite" aria-label="Cargando perfil">
       <pre id="bootLog"></pre>
     </div>
 
-    <main id="app" class="shell-wrap" hidden>
-      <section class="terminal" aria-label="Terminal interactiva de portafolio">
-        <header class="terminal-topbar">
-          <div class="window-actions" aria-hidden="true">
-            <span class="dot dot-red"></span>
-            <span class="dot dot-amber"></span>
-            <span class="dot dot-green"></span>
+    <div id="app" hidden>
+      <header class="site-header">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">
+          <span>&gt;_</span>whoami
+        </a>
+        <nav class="site-nav" aria-label="Secciones del CV">
+          <a href="#perfil">Perfil</a>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#skills">Skills</a>
+          <a href="#certificaciones">Certificaciones</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <a class="header-action" href="#terminal">Terminal</a>
+      </header>
+
+      <main>
+        <section id="inicio" class="hero">
+          <div class="hero-inner">
+            <p class="eyebrow">Cybersecurity Consultant / Offensive Security</p>
+            <h1 id="heroName"></h1>
+            <p id="heroRole" class="hero-role"></p>
+            <p id="heroBio" class="hero-copy"></p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#experiencia">Ver experiencia</a>
+              <a class="btn btn-secondary" href="#contacto">Contactar</a>
+              <a class="btn btn-ghost" href="#terminal">Modo terminal</a>
+            </div>
+
+            <div id="heroFacts" class="fact-strip" aria-label="Resumen rapido"></div>
           </div>
-          <div class="terminal-title">rogerf5@security:~/&gt;_whoami</div>
-          <div class="terminal-status">TTY-01 ONLINE</div>
-        </header>
+        </section>
 
-        <div id="terminalBody" class="terminal-body" tabindex="0">
-          <div id="output" class="terminal-output" aria-live="polite"></div>
+        <section id="perfil" class="section">
+          <div class="section-head">
+            <p class="eyebrow">Perfil</p>
+            <h2>Resumen ejecutivo</h2>
+            <p>
+              Perfil pensado para lectura rapida: identidad profesional, enfoque tecnico
+              y capacidades clave sin depender de comandos.
+            </p>
+          </div>
+          <div id="profileSummary" class="summary-grid"></div>
+        </section>
 
-          <form id="commandForm" class="command-line" autocomplete="off">
-            <span class="prompt" aria-hidden="true">rogerf5@whoami:~$</span>
-            <label class="sr-only" for="commandInput">Comando</label>
-            <input
-              id="commandInput"
-              name="command"
-              type="text"
-              inputmode="text"
-              spellcheck="false"
-              autocapitalize="none"
-              autocomplete="off"
-              aria-label="Escribe un comando"
-            />
-          </form>
-        </div>
-      </section>
-    </main>
+        <section id="experiencia" class="section band">
+          <div class="section-head">
+            <p class="eyebrow">Experiencia</p>
+            <h2>Trayectoria profesional</h2>
+          </div>
+          <div id="experienceTimeline" class="timeline"></div>
+        </section>
+
+        <section id="skills" class="section">
+          <div class="section-head">
+            <p class="eyebrow">Skills</p>
+            <h2>Capacidades tecnicas</h2>
+          </div>
+          <div id="skillsGrid" class="skills-grid"></div>
+        </section>
+
+        <section id="certificaciones" class="section band">
+          <div class="section-head">
+            <p class="eyebrow">Certificaciones</p>
+            <h2>Formacion en ciberseguridad</h2>
+          </div>
+          <div id="certificationGrid" class="cert-grid"></div>
+        </section>
+
+        <section id="educacion" class="section">
+          <div class="section-head">
+            <p class="eyebrow">Educacion</p>
+            <h2>Base academica e idiomas</h2>
+          </div>
+          <div class="two-column">
+            <div>
+              <h3>Educacion</h3>
+              <div id="educationList" class="stack-list"></div>
+            </div>
+            <div>
+              <h3>Idiomas</h3>
+              <div id="languageList" class="stack-list"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="proyectos" class="section band">
+          <div class="section-head">
+            <p class="eyebrow">Proyectos</p>
+            <h2>Arsenal y herramientas personales</h2>
+            <p>
+              Los proyectos privados se mencionan como evidencia de experiencia; su codigo
+              no se incluye en este repositorio.
+            </p>
+          </div>
+          <div id="projectsGrid" class="projects-grid"></div>
+        </section>
+
+        <section id="contacto" class="section contact-section">
+          <div class="section-head">
+            <p class="eyebrow">Contacto</p>
+            <h2>Perfiles publicos</h2>
+            <p>
+              El contacto publico se maneja por perfiles profesionales. Telefono y correo
+              del CV no se exponen en esta version publica.
+            </p>
+          </div>
+          <div id="contactGrid" class="contact-grid"></div>
+        </section>
+
+        <section id="terminal" class="section terminal-section">
+          <div class="section-head">
+            <p class="eyebrow">Modo avanzado</p>
+            <h2>Terminal interactiva</h2>
+          </div>
+          <details class="terminal-details">
+            <summary>Abrir consola del portafolio</summary>
+            <section class="terminal" aria-label="Terminal interactiva de portafolio">
+              <header class="terminal-topbar">
+                <div class="window-actions" aria-hidden="true">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-amber"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="terminal-title">rogerf5@security:~/&gt;_whoami</div>
+                <div class="terminal-status">TTY-01 ONLINE</div>
+              </header>
+
+              <div id="terminalBody" class="terminal-body" tabindex="0">
+                <div id="output" class="terminal-output" aria-live="polite"></div>
+
+                <form id="commandForm" class="command-line" autocomplete="off">
+                  <span class="prompt" aria-hidden="true">rogerf5@whoami:~$</span>
+                  <label class="sr-only" for="commandInput">Comando</label>
+                  <input
+                    id="commandInput"
+                    name="command"
+                    type="text"
+                    inputmode="text"
+                    spellcheck="false"
+                    autocapitalize="none"
+                    autocomplete="off"
+                    aria-label="Escribe un comando"
+                  />
+                </form>
+              </div>
+            </section>
+          </details>
+        </section>
+      </main>
+    </div>
 
     <noscript>
       <div class="noscript">
-        Este portafolio interactivo requiere JavaScript. El CV estatico esta disponible en README.md.
+        Este portafolio requiere JavaScript. El CV estatico esta disponible en README.md.
       </div>
     </noscript>
 

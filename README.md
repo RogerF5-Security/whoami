@@ -2,7 +2,9 @@
 
 # >_whoami
 
-Terminal-style interactive portfolio for **Roger Fernando Arana Lemus / Roger F5**.
+Professional cybersecurity portfolio for **Roger Fernando Arana Lemus / Roger F5**.
+
+The main site is organized as a recruiter-friendly CV with clear sections for profile, experience, skills, certifications, education, projects and contact. It also keeps an optional terminal mode for technical visitors.
 
 [![GitHub](https://img.shields.io/badge/GitHub-RogerF5--Security-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RogerF5-Security)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rogerf5-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rogerf5/)
@@ -131,6 +133,13 @@ Public contact is routed through professional profiles. Personal phone and email
 | RedTeam Suite / Reorden | Local/private reference | Python | Internal recon and HTTP wrapper tooling for controlled audit operations. |
 
 Local/private entries are mentioned as portfolio references only. Their source code is not included in this repository.
+
+## Site Experience
+
+- HR-friendly CV view with all key information visible by sections.
+- Dark professional cybersecurity UI with local hero visual asset.
+- Optional interactive terminal for technical visitors.
+- Static deployment with no build step.
 
 ## Interactive Commands
 

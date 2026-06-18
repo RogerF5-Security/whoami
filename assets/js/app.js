@@ -7,6 +7,7 @@
   const output = document.getElementById("output");
   const form = document.getElementById("commandForm");
   const input = document.getElementById("commandInput");
+  const terminalDetails = document.querySelector(".terminal-details");
 
   const state = {
     history: [],
@@ -24,12 +25,10 @@
   };
 
   const bootLines = [
-    "[ OK ] initializing >_whoami kernel",
-    "[ OK ] loading operator profile: RogerF5-Security",
-    "[ OK ] mounting /skills/offensive-security",
-    "[ OK ] mounting /projects/local-private references",
-    "[ OK ] enabling terminal command interface",
-    "[ OK ] session ready"
+    "[ OK ] loading Roger F5 profile",
+    "[ OK ] preparing HR-readable sections",
+    "[ OK ] mounting optional terminal mode",
+    "[ OK ] portfolio ready"
   ];
 
   function escapeHtml(value) {
@@ -45,6 +44,140 @@
     return `<a href="${escapeHtml(href)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>`;
   }
 
+  function setText(id, value) {
+    const target = document.getElementById(id);
+    if (target) {
+      target.textContent = value;
+    }
+  }
+
+  function renderInto(id, html) {
+    const target = document.getElementById(id);
+    if (target) {
+      target.innerHTML = html;
+    }
+  }
+
+  function renderList(items) {
+    return items.map((item) => `  - ${escapeHtml(item)}`).join("\n");
+  }
+
+  function renderHtmlList(items) {
+    return items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+  }
+
+  function renderTable(headers, rows) {
+    const head = headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("");
+    const body = rows
+      .map((row) => `<tr>${row.map((cell) => `<td>${cell}</td>`).join("")}</tr>`)
+      .join("");
+    return `<table class="terminal-table"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+  }
+
+  function renderPortfolio() {
+    setText("heroName", "Roger Fernando Arana Lemus");
+    setText("heroRole", `${profile.identity.role} - ${profile.identity.location}`);
+    setText("heroBio", profile.bio[0]);
+
+    renderInto(
+      "heroFacts",
+      [
+        ["Experiencia", "Offensive Security Consultant desde agosto 2023"],
+        ["Especialidad", "Pentesting web, movil, APIs, infraestructura y ATMs"],
+        ["Automation", "Python para auditorias, fuzzing, reporting y PoC"],
+        ["Hardware", "Flipper Zero, WiFi Pineapple, BadUSB y Rubber Ducky"]
+      ]
+        .map(([title, text]) => `<div class="fact"><strong>${escapeHtml(title)}</strong><span>${escapeHtml(text)}</span></div>`)
+        .join("")
+    );
+
+    renderInto(
+      "profileSummary",
+      [
+        ["Identidad", `${profile.identity.name} / ${profile.identity.handle}. ${profile.identity.role}.`],
+        ["Ubicacion", `${profile.identity.location}. Espanol nativo e ingles basico.`],
+        ["Mision", profile.identity.tagline],
+        ["Alcance", "Auditorias autorizadas sobre web, movil, APIs, infraestructura y ATMs."],
+        ["Desarrollo", "Herramientas Python para automatizar reconocimiento, fuzzing, explotacion controlada y reportes."],
+        ["Hardware", "Laboratorios con WiFi Pineapple, BadUSB, Rubber Ducky, USB Army y Flipper Zero."]
+      ]
+        .map(([title, text]) => `<article class="info-card"><strong>${escapeHtml(title)}</strong><p>${escapeHtml(text)}</p></article>`)
+        .join("")
+    );
+
+    renderInto(
+      "experienceTimeline",
+      profile.cv.experience
+        .map(
+          (item) => `<article class="timeline-item">
+            <h3>${escapeHtml(item.title)}</h3>
+            <ul>${renderHtmlList(item.lines)}</ul>
+          </article>`
+        )
+        .join("")
+    );
+
+    renderInto(
+      "skillsGrid",
+      profile.skills
+        .map(
+          (group) => `<article class="skill-card">
+            <h3>${escapeHtml(group.area)}</h3>
+            <div class="chip-row">${group.items.map((item) => `<span class="chip">${escapeHtml(item)}</span>`).join("")}</div>
+          </article>`
+        )
+        .join("")
+    );
+
+    renderInto(
+      "certificationGrid",
+      profile.cv.training.map((item) => `<div class="cert-item">${escapeHtml(item)}</div>`).join("")
+    );
+
+    renderInto(
+      "educationList",
+      profile.cv.education.map((item) => `<div class="list-item">${escapeHtml(item)}</div>`).join("")
+    );
+
+    renderInto(
+      "languageList",
+      profile.cv.languages.map((item) => `<div class="list-item">${escapeHtml(item)}</div>`).join("")
+    );
+
+    renderInto(
+      "projectsGrid",
+      profile.projects
+        .map((project) => {
+          const links = project.links.length
+            ? project.links.map(([label, href]) => link(label, href)).join("")
+            : '<span class="status-pill">codigo no publicado</span>';
+
+          return `<article class="project-card">
+            <div class="project-top">
+              <h3>${escapeHtml(project.name)}</h3>
+              <span class="status-pill">${escapeHtml(project.status)}</span>
+            </div>
+            <div class="project-meta"><span class="chip">${escapeHtml(project.stack)}</span></div>
+            <p>${escapeHtml(project.description)}</p>
+            <div class="project-links">${links}</div>
+          </article>`;
+        })
+        .join("")
+    );
+
+    renderInto(
+      "contactGrid",
+      profile.contacts
+        .map(
+          ([label, href]) => `<article class="contact-card">
+            <span>${escapeHtml(label)}</span>
+            ${link(href, href)}
+          </article>`
+        )
+        .join("")
+    );
+  }
+
   function print(html, type = "response") {
     const entry = document.createElement("div");
     entry.className = `entry ${type}`;
@@ -55,18 +188,6 @@
 
   function promptLine(command) {
     print(`<span class="prompt">rogerf5@whoami:~$</span> ${escapeHtml(command)}`, "command");
-  }
-
-  function renderList(items) {
-    return items.map((item) => `  - ${escapeHtml(item)}`).join("\n");
-  }
-
-  function renderTable(headers, rows) {
-    const head = headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("");
-    const body = rows
-      .map((row) => `<tr>${row.map((cell) => `<td>${cell}</td>`).join("")}</tr>`)
-      .join("");
-    return `<table class="terminal-table"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
   }
 
   function renderBanner() {
@@ -121,7 +242,7 @@ mission:
   ${escapeHtml(profile.identity.tagline)}`;
   }
 
-function renderCv() {
+  function renderCv() {
     const experience = profile.cv.experience
       .map((item) => {
         const lines = item.lines.map((line) => `    - ${escapeHtml(line)}`).join("\n");
@@ -294,21 +415,21 @@ These names describe personal tooling areas only. No local source files are bund
   async function typeBootLine(line) {
     for (const char of line) {
       bootLog.textContent += char;
-      await new Promise((resolve) => window.setTimeout(resolve, 8));
+      await new Promise((resolve) => window.setTimeout(resolve, 5));
     }
     bootLog.textContent += "\n";
-    await new Promise((resolve) => window.setTimeout(resolve, 90));
+    await new Promise((resolve) => window.setTimeout(resolve, 60));
   }
 
   async function bootSequence() {
+    renderPortfolio();
     for (const line of bootLines) {
       await typeBootLine(line);
     }
-    await new Promise((resolve) => window.setTimeout(resolve, 260));
+    await new Promise((resolve) => window.setTimeout(resolve, 140));
     boot.hidden = true;
     app.hidden = false;
     print(renderBanner());
-    input.focus();
   }
 
   form.addEventListener("submit", (event) => {
@@ -320,6 +441,12 @@ These names describe personal tooling areas only. No local source files are bund
 
   terminalBody.addEventListener("click", () => {
     input.focus();
+  });
+
+  terminalDetails.addEventListener("toggle", () => {
+    if (terminalDetails.open) {
+      input.focus();
+    }
   });
 
   bootSequence();
