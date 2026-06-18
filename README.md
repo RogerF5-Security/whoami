@@ -236,39 +236,3 @@ Expected Pages URL:
 ```text
 https://rogerf5-security.github.io/whoami/
 ```
-
-### Pages From Branch
-
-```powershell
-git init
-git add .
-git commit -m "init terminal portfolio"
-git branch -M main
-git remote add origin https://github.com/RogerF5-Security/whoami.git
-git push -u origin main
-```
-
-Then configure:
-
-```text
-GitHub repo -> Settings -> Pages -> Build and deployment -> Deploy from a branch
-Branch: main
-Folder: /root
-Save
-```
-
-### GitHub Actions
-
-This project includes `.github/workflows/pages.yml`.
-
-```text
-GitHub repo -> Settings -> Pages -> Build and deployment -> GitHub Actions
-```
-
-Push to `main`; the workflow uploads the static site and deploys it to Pages.
-
-## Content Maintenance
-
-- Update `assets/js/profile.js` to change terminal content.
-- Update `README.md` to keep the static CV aligned with the interactive version.
-- Do not copy local/private tools into this repository unless they are intentionally prepared for publication.
