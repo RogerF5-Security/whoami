@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content=">_whoami - portafolio interactivo tipo terminal de Roger Arana / Roger F5."
+    />
+    <meta name="theme-color" content="#050708" />
+    <meta property="og:title" content=">_whoami | Roger F5" />
+    <meta
+      property="og:description"
+      content="Terminal interactiva para CV, proyectos, habilidades y contacto en ciberseguridad."
+    />
+    <meta property="og:type" content="website" />
+    <title>&gt;_whoami | Roger F5 Security</title>
+    <link rel="stylesheet" href="assets/css/terminal.css" />
+  </head>
+  <body data-theme="green">
+    <div id="boot" class="boot-screen" aria-live="polite" aria-label="Secuencia de arranque">
+      <pre id="bootLog"></pre>
+    </div>
+
+    <main id="app" class="shell-wrap" hidden>
+      <section class="terminal" aria-label="Terminal interactiva de portafolio">
+        <header class="terminal-topbar">
+          <div class="window-actions" aria-hidden="true">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-amber"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <div class="terminal-title">rogerf5@security:~/&gt;_whoami</div>
+          <div class="terminal-status">TTY-01 ONLINE</div>
+        </header>
+
+        <div id="terminalBody" class="terminal-body" tabindex="0">
+          <div id="output" class="terminal-output" aria-live="polite"></div>
+
+          <form id="commandForm" class="command-line" autocomplete="off">
+            <span class="prompt" aria-hidden="true">rogerf5@whoami:~$</span>
+            <label class="sr-only" for="commandInput">Comando</label>
+            <input
+              id="commandInput"
+              name="command"
+              type="text"
+              inputmode="text"
+              spellcheck="false"
+              autocapitalize="none"
+              autocomplete="off"
+              aria-label="Escribe un comando"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <noscript>
+      <div class="noscript">
+        Este portafolio interactivo requiere JavaScript. El CV estatico esta disponible en README.md.
+      </div>
+    </noscript>
+
+    <script src="assets/js/profile.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

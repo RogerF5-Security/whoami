@@ -1,0 +1,344 @@
+:root {
+  color-scheme: dark;
+  --bg: #050708;
+  --panel: #0a0f11;
+  --panel-strong: #0d1517;
+  --text: #d7ffe9;
+  --muted: #7f938f;
+  --line: #1f3335;
+  --accent: #39ff14;
+  --accent-soft: rgba(57, 255, 20, 0.16);
+  --cyan: #35d7ff;
+  --amber: #ffbf47;
+  --danger: #ff5f56;
+  --shadow: rgba(0, 0, 0, 0.55);
+  --font-mono: "Fira Code", "JetBrains Mono", "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+}
+
+body[data-theme="cyan"] {
+  --accent: #35d7ff;
+  --accent-soft: rgba(53, 215, 255, 0.14);
+  --text: #e4fbff;
+}
+
+body[data-theme="amber"] {
+  --accent: #ffbf47;
+  --accent-soft: rgba(255, 191, 71, 0.15);
+  --text: #fff4dc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 50% -20%, rgba(53, 215, 255, 0.08), transparent 36rem),
+    linear-gradient(180deg, #050708 0%, #090d0f 52%, #050708 100%);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  letter-spacing: 0;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.025) 0,
+    rgba(255, 255, 255, 0.025) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+  mix-blend-mode: screen;
+  opacity: 0.18;
+  z-index: 4;
+}
+
+a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.boot-screen {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1.25rem;
+  background: var(--bg);
+}
+
+.boot-screen pre {
+  width: min(920px, 100%);
+  min-height: 19rem;
+  margin: 0;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #020405;
+  color: var(--accent);
+  box-shadow: 0 24px 80px var(--shadow), inset 0 0 28px rgba(57, 255, 20, 0.05);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.shell-wrap {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1.25rem;
+}
+
+.terminal {
+  width: min(1180px, 100%);
+  height: min(820px, calc(100vh - 2.5rem));
+  min-height: 620px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.025), transparent 6rem),
+    var(--panel);
+  box-shadow: 0 28px 90px var(--shadow), 0 0 0 1px rgba(255, 255, 255, 0.025);
+  overflow: hidden;
+}
+
+.terminal-topbar {
+  min-height: 48px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+  border-bottom: 1px solid var(--line);
+  background: var(--panel-strong);
+}
+
+.window-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  display: inline-block;
+  border-radius: 999px;
+}
+
+.dot-red {
+  background: var(--danger);
+}
+
+.dot-amber {
+  background: var(--amber);
+}
+
+.dot-green {
+  background: var(--accent);
+}
+
+.terminal-title {
+  min-width: 0;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.terminal-status {
+  color: var(--accent);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.terminal-body {
+  position: relative;
+  flex: 1;
+  padding: 1.1rem;
+  overflow-y: auto;
+  scrollbar-color: var(--accent) transparent;
+  scrollbar-width: thin;
+}
+
+.terminal-body:focus {
+  outline: none;
+}
+
+.terminal-output {
+  display: grid;
+  gap: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.entry {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.55;
+}
+
+.entry.command {
+  color: var(--text);
+}
+
+.entry.response {
+  color: #cceee2;
+}
+
+.entry.response strong,
+.entry.response .accent {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.entry.response .muted {
+  color: var(--muted);
+}
+
+.entry.response .cyan {
+  color: var(--cyan);
+}
+
+.entry.response .amber {
+  color: var(--amber);
+}
+
+.terminal-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 0.25rem 0;
+}
+
+.terminal-table th,
+.terminal-table td {
+  padding: 0.45rem 0.55rem;
+  border-bottom: 1px solid rgba(127, 147, 143, 0.18);
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.terminal-table th {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.command-line {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.65rem;
+  align-items: center;
+  padding-top: 0.35rem;
+  border-top: 1px solid rgba(127, 147, 143, 0.12);
+}
+
+.prompt {
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+#commandInput {
+  width: 100%;
+  min-width: 0;
+  padding: 0.25rem 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--text);
+  caret-color: var(--accent);
+  font: inherit;
+}
+
+#commandInput::selection,
+.entry::selection {
+  background: var(--accent-soft);
+}
+
+.noscript {
+  margin: 2rem auto;
+  max-width: 720px;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--text);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 720px) {
+  body {
+    font-size: 14px;
+  }
+
+  .shell-wrap {
+    padding: 0;
+  }
+
+  .terminal {
+    min-height: 100vh;
+    height: 100vh;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .terminal-topbar {
+    grid-template-columns: auto 1fr;
+  }
+
+  .terminal-status {
+    display: none;
+  }
+
+  .terminal-body {
+    padding: 0.9rem;
+  }
+
+  .command-line {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .terminal-table {
+    display: block;
+    overflow-x: auto;
+    table-layout: auto;
+  }
+
+  .prompt {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
