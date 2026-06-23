@@ -154,16 +154,37 @@ Public contact is routed through professional profiles. Personal phone and email
 
 | Project | Status | Stack | Description |
 | --- | --- | --- | --- |
+| [Hardware Hacking](https://github.com/RogerF5-Security/Hardware_Hacking) | Public/demo | Hardware Hacking / RF / Web | Public repository and web lab for hardware hacking, RF, physical tooling and practical learning. Demo: [rogerf5-security.github.io/Hardware_Hacking](https://rogerf5-security.github.io/Hardware_Hacking/). |
+| [Flipper Zero Emulador Didactico Web](https://github.com/RogerF5-Security/Flipper-Zero-Emulador-Didactico-Web) | Public/demo | JavaScript / Flipper Zero / Training | Browser-based didactic emulator for explaining Flipper Zero screens, workflows and security concepts. Demo: [rogerf5-security.github.io/Flipper-Zero-Emulador-Didactico-Web](https://rogerf5-security.github.io/Flipper-Zero-Emulador-Didactico-Web/). |
+| [Reportes-Burp](https://github.com/RogerF5-Security/Reportes-Burp) | Public | Burp Suite / Reporting | Repository focused on professional reporting, templates and evidence workflows for Burp Suite outputs. |
 | [RF5 RECON](https://chromewebstore.google.com/detail/ojibelahcinfehgdahcmamkinjjaabgd?utm_source=item-share-cb) | Public | Browser Extension | Reconnaissance extension for fast browser-based security workflows. Also available on [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/rf5-recon/). |
 | Scan Titan | Local/private reference | Python CLI | Zero-touch authorized scanner with web/API modules, Nmap, Nuclei, HTML reports and XLSX recon matrix. |
 | WebSecAudit-RF | Local/private reference | Python GUI | Web security audit suite with plugins, authentication handling, dashboards and HTML reporting. |
 | AuditRF | Local/private reference | Python Framework | Modular audit framework for web testing, plugin execution and evidence automation. |
+| Flipper Asset Maker | Local/private reference | Python / Tkinter / PIL | Local utility for building Flipper Zero assets, animations, packs and compatible folder structures. Source is not bundled. |
 | [WikiFlip](https://github.com/RogerF5-Security/WikiFlip) | Public/reference | Flipper Zero / C | Offline cybersecurity dictionary FAP with OWASP, NIST, RedTeam, BlueTeam and hardware hacking terms. |
 | [Mayan Decoder](https://github.com/RogerF5-Security/Mayan_decoder) | Public/reference | Flipper Zero / C | Flipper Zero FAP that converts decimal numbers into Mayan numerals with Canvas rendering. |
 | Nuclei-Gui | Local/private reference | Python GUI | Local interface for organizing Nuclei execution and results in audit workflows. |
 | RedTeam Suite / Reorden | Local/private reference | Python | Internal recon and HTTP wrapper tooling for controlled audit operations. |
 
 Local/private entries are mentioned as portfolio references only. Their source code is not included in this repository.
+
+## YouTube Previews
+
+| <a href="https://www.youtube.com/watch?v=h4qC4S8p7FY"><img src="https://img.youtube.com/vi/h4qC4S8p7FY/0.jpg" width="100%" alt="Arduino con ChatGPT" /></a> | <a href="https://www.youtube.com/watch?v=ifDqZuoZDHc"><img src="https://img.youtube.com/vi/ifDqZuoZDHc/0.jpg" width="100%" alt="Kali Purple" /></a> |
+| --- | --- |
+| **Arduino + ChatGPT Melody** | **Que es Kali Purple** |
+
+## Public Profiles
+
+[![GitHub](https://img.shields.io/badge/GitHub-RogerF5--Security-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RogerF5-Security)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rogerf5-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rogerf5/)
+[![Credly](https://img.shields.io/badge/Credly-Roger%20Arana-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/roger-arana)
+[![YouTube](https://img.shields.io/badge/YouTube-ROGERF5-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ROGERF5)
+[![Twitch](https://img.shields.io/badge/Twitch-rogerf5-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/rogerf5)
+[![TikTok](https://img.shields.io/badge/TikTok-roger__f5-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@roger_f5?_r=1&_t=ZS-93UFGAbNfhY)
+[![Discord](https://img.shields.io/badge/Discord-Comunidad-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/9Rp4dskE)
+[![Instagram](https://img.shields.io/badge/Instagram-rogerf5-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rogerf5?igsh=OG8xbjYzandwamk3)
 
 ## Site Experience
 
@@ -183,8 +204,10 @@ cat cv.txt
 cat skills.txt
 cat certs.txt
 cat projects.txt
+cat videos.txt
 cat contact.txt
 projects
+videos
 contact
 theme green
 theme cyan
@@ -203,6 +226,9 @@ help
 |-- assets
 |   |-- css
 |   |   `-- terminal.css
+|   |-- img
+|   |   |-- hero-soc.png
+|   |   `-- evidence
 |   `-- js
 |       |-- profile.js
 |       `-- app.js

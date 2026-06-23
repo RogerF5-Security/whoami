@@ -164,10 +164,41 @@ window.WHOAMI_PROFILE = {
   ],
   projects: [
     {
+      name: "Hardware Hacking",
+      status: "public/demo",
+      stack: "Hardware Hacking / RF / Web",
+      description: "Repositorio y laboratorio web para documentar flujos de hardware hacking, RF, herramientas fisicas y aprendizaje practico.",
+      tags: ["hardware", "rf", "training"],
+      links: [
+        ["GitHub", "https://github.com/RogerF5-Security/Hardware_Hacking"],
+        ["Demo Web", "https://rogerf5-security.github.io/Hardware_Hacking/"]
+      ]
+    },
+    {
+      name: "Flipper Zero Emulador Didactico Web",
+      status: "public/demo",
+      stack: "JavaScript / Flipper Zero / Training",
+      description: "Emulador web didactico para explicar conceptos, pantallas y flujos del Flipper Zero desde el navegador.",
+      tags: ["flipper zero", "web lab", "education"],
+      links: [
+        ["GitHub", "https://github.com/RogerF5-Security/Flipper-Zero-Emulador-Didactico-Web"],
+        ["Demo Web", "https://rogerf5-security.github.io/Flipper-Zero-Emulador-Didactico-Web/"]
+      ]
+    },
+    {
+      name: "Reportes-Burp",
+      status: "public",
+      stack: "Burp Suite / Reporting",
+      description: "Repositorio orientado a reportes, plantillas y salida profesional para evidencias generadas desde Burp Suite.",
+      tags: ["burp suite", "reporting", "pentest"],
+      links: [["GitHub", "https://github.com/RogerF5-Security/Reportes-Burp"]]
+    },
+    {
       name: "RF5 RECON",
       status: "public",
       stack: "Browser Extension",
       description: "Extension de navegador para acelerar reconocimiento y flujos de seguridad desde el browser.",
+      tags: ["browser", "recon", "automation"],
       links: [
         ["Chrome Web Store", "https://chromewebstore.google.com/detail/ojibelahcinfehgdahcmamkinjjaabgd?utm_source=item-share-cb"],
         ["Firefox Add-ons", "https://addons.mozilla.org/en-US/firefox/addon/rf5-recon/"]
@@ -178,6 +209,7 @@ window.WHOAMI_PROFILE = {
       status: "local/private",
       stack: "Python CLI",
       description: "Scanner zero-touch para auditorias autorizadas con modulos web/API, Nmap, Nuclei y reportes HTML/XLSX.",
+      tags: ["scanner", "nmap", "nuclei"],
       links: []
     },
     {
@@ -185,6 +217,7 @@ window.WHOAMI_PROFILE = {
       status: "local/private",
       stack: "Python GUI",
       description: "Suite grafica de auditoria web con plugins, autenticacion, dashboard y reportes HTML profesionales.",
+      tags: ["web", "gui", "reporting"],
       links: []
     },
     {
@@ -192,6 +225,15 @@ window.WHOAMI_PROFILE = {
       status: "local/private",
       stack: "Python Framework",
       description: "Framework modular para auditorias web, plugins de escaneo, reportes y automatizacion de evidencia.",
+      tags: ["framework", "plugins", "evidence"],
+      links: []
+    },
+    {
+      name: "Flipper Asset Maker",
+      status: "local/private",
+      stack: "Python / Tkinter / PIL",
+      description: "Herramienta local para crear facilmente assets, animaciones, packs y estructuras compatibles con Flipper Zero.",
+      tags: ["flipper zero", "assets", "python"],
       links: []
     },
     {
@@ -199,6 +241,7 @@ window.WHOAMI_PROFILE = {
       status: "public/reference",
       stack: "Flipper Zero / C",
       description: "Aplicacion FAP con diccionario offline de ciberseguridad, 100 terminos y categorias OWASP/NIST/RedTeam/BlueTeam.",
+      tags: ["flipper zero", "fap", "reference"],
       links: [["GitHub", "https://github.com/RogerF5-Security/WikiFlip"]]
     },
     {
@@ -206,6 +249,7 @@ window.WHOAMI_PROFILE = {
       status: "public/reference",
       stack: "Flipper Zero / C",
       description: "Aplicacion FAP que convierte numeros decimales a numerales mayas usando Canvas API.",
+      tags: ["flipper zero", "canvas", "education"],
       links: [["GitHub", "https://github.com/RogerF5-Security/Mayan_decoder"]]
     },
     {
@@ -213,6 +257,7 @@ window.WHOAMI_PROFILE = {
       status: "local/private",
       stack: "Python GUI",
       description: "Interfaz local para ejecutar, organizar y revisar resultados de Nuclei en flujos de auditoria.",
+      tags: ["nuclei", "gui", "workflow"],
       links: []
     },
     {
@@ -220,7 +265,24 @@ window.WHOAMI_PROFILE = {
       status: "local/private",
       stack: "Python",
       description: "Tooling interno de recon y HTTP wrappers para auditorias controladas, con politica de ruido TLS reducida.",
+      tags: ["recon", "http", "ops"],
       links: []
+    }
+  ],
+  videos: [
+    {
+      title: "Arduino + ChatGPT Melody",
+      topic: "Hardware creativo e IA aplicada",
+      url: "https://www.youtube.com/watch?v=h4qC4S8p7FY",
+      thumbnail: "https://img.youtube.com/vi/h4qC4S8p7FY/0.jpg",
+      description: "Preview de contenido practico combinando Arduino, automatizacion creativa y uso de IA."
+    },
+    {
+      title: "Que es Kali Purple",
+      topic: "Blue Team / laboratorio defensivo",
+      url: "https://www.youtube.com/watch?v=ifDqZuoZDHc",
+      thumbnail: "https://img.youtube.com/vi/ifDqZuoZDHc/0.jpg",
+      description: "Introduccion visual a Kali Purple y su enfoque para laboratorios defensivos."
     }
   ],
   contacts: [
