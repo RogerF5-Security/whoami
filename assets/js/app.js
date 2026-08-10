@@ -19,6 +19,7 @@
     "cv.txt": renderCv,
     "skills.txt": renderSkills,
     "certs.txt": renderCerts,
+    "evidence.txt": renderEvidence,
     "projects.txt": renderProjects,
     "videos.txt": renderVideos,
     "contact.txt": renderContact,
@@ -168,6 +169,22 @@
     );
 
     renderInto(
+      "credentialGrid",
+      profile.credentialHighlights
+        .map(
+          (item) => `<article class="credential-card">
+            <img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" />
+            <div>
+              <span class="status-pill">${escapeHtml(item.category)}</span>
+              <h3>${escapeHtml(item.title)}</h3>
+              <p>${escapeHtml(item.issuer)}</p>
+            </div>
+          </article>`
+        )
+        .join("")
+    );
+
+    renderInto(
       "credlyGrid",
       profile.credlyBadges
         .map(
@@ -219,8 +236,12 @@
           const classes = ["project-card", project.status.includes("public") ? "project-card-public" : ""]
             .filter(Boolean)
             .join(" ");
+          const image = project.image
+            ? `<img class="project-image" src="${escapeHtml(project.image)}" alt="${escapeHtml(project.name)} preview" loading="lazy" />`
+            : "";
 
           return `<article class="${classes}">
+            ${image}
             <div class="project-top">
               <h3>${escapeHtml(project.name)}</h3>
               <span class="status-pill">${escapeHtml(project.status)}</span>
@@ -302,6 +323,7 @@ Run <span class="cyan">help</span> to list commands.`;
   cat cv.txt          show static CV profile
   cat skills.txt      show technical skill matrix
   cat certs.txt       show certifications
+  cat evidence.txt    show visual credential highlights
   cat projects.txt    show public and local/private project references
   cat videos.txt      show YouTube video previews
   cat contact.txt     show contact links
@@ -319,12 +341,14 @@ Run <span class="cyan">help</span> to list commands.`;
   function renderLs() {
     return `drwxr-xr-x  profile/
 drwxr-xr-x  skills/
+drwxr-xr-x  evidence/
 drwxr-xr-x  projects/
 drwxr-xr-x  videos/
 drwxr-xr-x  contact/
 -rw-r--r--  cv.txt
 -rw-r--r--  skills.txt
 -rw-r--r--  certs.txt
+-rw-r--r--  evidence.txt
 -rw-r--r--  projects.txt
 -rw-r--r--  videos.txt
 -rw-r--r--  contact.txt
@@ -382,6 +406,23 @@ ${renderList(profile.cv.training)}
 
 Credential profile:
   ${link("Credly / Roger Arana", "https://www.credly.com/users/roger-arana")}`;
+  }
+
+  function renderEvidence() {
+    const rows = profile.credentialHighlights.map((item) => [
+      `<span class="accent">${escapeHtml(item.title)}</span>`,
+      escapeHtml(item.issuer),
+      escapeHtml(item.category)
+    ]);
+
+    return `${renderTable(["Credential", "Issuer", "Focus"], rows)}
+
+Visual gallery:
+  ${link("Open certificates section", "#evidencias")}
+
+Publication note:
+  - The public site includes selected approved images only.
+  - Full PDFs and internal documents are intentionally not bundled.`;
   }
 
   function renderProjectLinks(project) {

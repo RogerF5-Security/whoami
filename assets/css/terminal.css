@@ -319,6 +319,7 @@ h3 {
 .timeline,
 .skills-grid,
 .cert-grid,
+.credential-grid,
 .badge-grid,
 .evidence-grid,
 .two-column,
@@ -351,6 +352,7 @@ h3 {
 .info-card,
 .skill-card,
 .project-card,
+.credential-card,
 .video-card,
 .contact-card,
 .timeline-item,
@@ -449,6 +451,50 @@ h3 {
   background: rgba(9, 16, 18, 0.9);
   color: var(--text-soft);
   line-height: 1.45;
+}
+
+.credential-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.credential-card {
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.credential-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 1px solid rgba(53, 215, 255, 0.16);
+  background: #050708;
+}
+
+.credential-card div {
+  display: grid;
+  gap: 0.65rem;
+  align-content: start;
+  padding: 1rem;
+}
+
+.credential-card h3,
+.credential-card p {
+  margin: 0;
+}
+
+.credential-card h3 {
+  color: var(--text);
+  line-height: 1.35;
+}
+
+.credential-card p {
+  color: var(--text-soft);
+  line-height: 1.5;
 }
 
 .badge-grid {
@@ -560,9 +606,22 @@ h3 {
 
 .project-card {
   position: relative;
+  overflow: hidden;
   display: grid;
   gap: 0.8rem;
   padding: 1.2rem;
+}
+
+.project-image {
+  width: calc(100% + 2.4rem);
+  max-width: none;
+  aspect-ratio: 16 / 7;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  margin: -1.2rem -1.2rem 0;
+  border-bottom: 1px solid rgba(53, 215, 255, 0.16);
+  background: #050708;
 }
 
 .project-card-public {
@@ -1031,6 +1090,7 @@ h3 {
   .summary-grid,
   .skills-grid,
   .cert-grid,
+  .credential-grid,
   .badge-grid,
   .contact-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1109,6 +1169,7 @@ h3 {
   .summary-grid,
   .skills-grid,
   .cert-grid,
+  .credential-grid,
   .badge-grid,
   .contact-grid {
     grid-template-columns: 1fr;

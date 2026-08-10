@@ -103,6 +103,15 @@ Public contact is routed through professional profiles. Personal phone and email
 - ATM Penetration Testing & Security Assessment, Red Team Leaders (2026).
 - Hardware Hacking Introduction, Red Team Leaders (2026).
 - Master in Prompt Engineering and AI, Red Team Leaders (2026).
+- Anthropic AI Fluency for Educators (2026).
+- Anthropic Claude 101 (2026).
+- Anthropic Claude Code 101 (2026).
+- Anthropic Claude Code in Action (2026).
+- Anthropic Introduction to Agent Skills (2026).
+- HTB Academy Fundamentals of AI (2026).
+- BIG School Ciberseguridad y Hacking Etico - Deteccion de Vulnerabilidades y Defensa Digital (2026).
+- BIG School Desarrollo con IA de 0 a Produccion (2026).
+- Nica Security Hub Speaker/Facilitador TechClinics Hardware Hacking - Ciclo 05 (2026).
 - LFS101: Introduction to Linux, The Linux Foundation (2026).
 - Microsoft AI Skills Fest 2026.
 - Microsoft Learn - Microsoft 365 Copilot Chat achievements (2026).
@@ -118,7 +127,7 @@ Public contact is routed through professional profiles. Personal phone and email
 - Udemy Cyber Security Awareness For Everyone (03-2023).
 - GEM Inteligencia Artificial con Python (02-2023).
 - Seguridad Cero Fundamentos de Ciberseguridad (11-2022).
-- HackemCON Cybersecurity Conference - Attendant (10-2022).
+- Hackem Cybersecurity Research Group - HackemCON 2022 Cybersecurity Conference Attendant Open Badge (2022).
 - Hacker Mentor Ethical Hacking Red Team Segunda Edicion (10-2022).
 - Udemy Deep Web - Introduccion a la Internet Profunda (08-2022).
 - Hacker Mentor Ethical Hacking Red Team (07-2022).
@@ -140,6 +149,15 @@ Public contact is routed through professional profiles. Personal phone and email
 - [Ethical Hacker - Cisco](https://www.credly.com/badges/9139a68e-205e-4115-b6c7-bc311beb5873)
 - [Introduction to Cybersecurity - Cisco](https://www.credly.com/badges/d0c93c68-0255-45f9-a55f-6a3be7c1373b)
 
+## Credential Visual Highlights
+
+| Anthropic | HTB Academy | BIG School | Community |
+| --- | --- | --- | --- |
+| <img src="assets/img/credentials/anthropic-claude-code-101.jpg" alt="Anthropic Claude Code 101" width="100%" /> | <img src="assets/img/credentials/htb-fundamentals-ai.png" alt="HTB Academy Fundamentals of AI" width="100%" /> | <img src="assets/img/credentials/bigschool-ciberseguridad.jpg" alt="BIG School Ciberseguridad y Hacking Etico" width="100%" /> | <img src="assets/img/credentials/nicasecurity-speaker.jpg" alt="Nica Security Hub Speaker" width="100%" /> |
+| Claude Code 101 | Fundamentals of AI | Ciberseguridad y Hacking Etico | TechClinics Hardware Hacking |
+
+Additional approved visual credentials are included in `assets/img/credentials/`. Full PDFs and internal/private documents are not published in this repository.
+
 ## Community
 
 - **Pwn3dCON Community Sessions - Speaker:** Explorando la seguridad web: introduccion a Burp Suite y herramientas clave.
@@ -156,14 +174,17 @@ Public contact is routed through professional profiles. Personal phone and email
 | --- | --- | --- | --- |
 | [Hardware Hacking](https://github.com/RogerF5-Security/Hardware_Hacking) | Public/demo | Hardware Hacking / RF / Web | Public repository and web lab for hardware hacking, RF, physical tooling and practical learning. Demo: [rogerf5-security.github.io/Hardware_Hacking](https://rogerf5-security.github.io/Hardware_Hacking/). |
 | [Flipper Zero Emulador Didactico Web](https://github.com/RogerF5-Security/Flipper-Zero-Emulador-Didactico-Web) | Public/demo | JavaScript / Flipper Zero / Training | Browser-based didactic emulator for explaining Flipper Zero screens, workflows and security concepts. Demo: [rogerf5-security.github.io/Flipper-Zero-Emulador-Didactico-Web](https://rogerf5-security.github.io/Flipper-Zero-Emulador-Didactico-Web/). |
+| [NFC QR Presenter](https://github.com/RogerF5-Security/NFC_QR_Presenter) | Public/catalog | Flipper Zero / C / NFC / QR | Flipper Zero external app that renders payloads as QR codes and emulates NFC NDEF tags. Catalog: [lab.flipper.net/apps/nfc_qr_presenter](https://lab.flipper.net/apps/nfc_qr_presenter). |
 | [Reportes-Burp](https://github.com/RogerF5-Security/Reportes-Burp) | Public | Burp Suite / Reporting | Repository focused on professional reporting, templates and evidence workflows for Burp Suite outputs. |
+| [Kraken Tres D](https://rogerf5-security.github.io/Kraken-Tres-D/) | Public/venture | 3D Printing / Entrepreneurship | Public space for the Kraken Tres D 3D-printing venture, prototypes, services and maker work. |
 | [RF5 RECON](https://chromewebstore.google.com/detail/ojibelahcinfehgdahcmamkinjjaabgd?utm_source=item-share-cb) | Public | Browser Extension | Reconnaissance extension for fast browser-based security workflows. Also available on [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/rf5-recon/). |
-| Scan Titan | Local/private reference | Python CLI | Zero-touch authorized scanner with web/API modules, Nmap, Nuclei, HTML reports and XLSX recon matrix. |
+| [Scan Titan Web Extension 2.1.0](https://chromewebstore.google.com/detail/scan-titan/epdbmbbfkmmhkfcfhlpncfkehgcaldcb) | Public/store | Browser Extension / Chrome Web Store | Published extension for web-audit workflows, evidence organization and browser-side review. Includes public [privacy](https://rogerf5arana.blogspot.com/p/politica-de-privacidad-de-scan-titan.html) and [support](https://rogerf5arana.blogspot.com/p/soporte-de-scan-titan-web-extension.html) pages. |
+| [AV--servers](https://github.com/RogerF5-Security/AV--servers) | Public | Python / Kali / Nmap / Nuclei | Modular scanner for authorized server and web assessments using Nmap, WhatWeb, Nuclei, Nikto, SMBMap and structured reports. |
 | WebSecAudit-RF | Local/private reference | Python GUI | Web security audit suite with plugins, authentication handling, dashboards and HTML reporting. |
 | AuditRF | Local/private reference | Python Framework | Modular audit framework for web testing, plugin execution and evidence automation. |
-| Flipper Asset Maker | Local/private reference | Python / Tkinter / PIL | Local utility for building Flipper Zero assets, animations, packs and compatible folder structures. Source is not bundled. |
-| [WikiFlip](https://github.com/RogerF5-Security/WikiFlip) | Public/reference | Flipper Zero / C | Offline cybersecurity dictionary FAP with OWASP, NIST, RedTeam, BlueTeam and hardware hacking terms. |
-| [Mayan Decoder](https://github.com/RogerF5-Security/Mayan_decoder) | Public/reference | Flipper Zero / C | Flipper Zero FAP that converts decimal numbers into Mayan numerals with Canvas rendering. |
+| [Flipper Asset Maker](https://github.com/RogerF5-Security/Flipper_Assest_Maker) | Public | Python / Tkinter / PIL | Utility for building Flipper Zero assets, animations, packs and compatible folder structures. |
+| [WikiFlip](https://github.com/RogerF5-Security/WikiFlip) | Public/reference | Flipper Zero / C | Offline cybersecurity dictionary FAP with OWASP, NIST, RedTeam, BlueTeam and hardware hacking terms. Catalog: [lab.flipper.net/apps/wikiflip](https://lab.flipper.net/apps/wikiflip). |
+| [Mayan Decoder](https://github.com/RogerF5-Security/Mayan_decoder) | Public/reference | Flipper Zero / C | Flipper Zero FAP that converts decimal numbers into Mayan numerals with Canvas rendering. Catalog: [lab.flipper.net/apps/mayan_decoder](https://lab.flipper.net/apps/mayan_decoder). |
 | Nuclei-Gui | Local/private reference | Python GUI | Local interface for organizing Nuclei execution and results in audit workflows. |
 | RedTeam Suite / Reorden | Local/private reference | Python | Internal recon and HTTP wrapper tooling for controlled audit operations. |
 
@@ -203,6 +224,7 @@ whoami
 cat cv.txt
 cat skills.txt
 cat certs.txt
+cat evidence.txt
 cat projects.txt
 cat videos.txt
 cat contact.txt
@@ -228,7 +250,9 @@ help
 |   |   `-- terminal.css
 |   |-- img
 |   |   |-- hero-soc.png
-|   |   `-- evidence
+|   |   |-- credentials
+|   |   |-- evidence
+|   |   `-- projects
 |   `-- js
 |       |-- profile.js
 |       `-- app.js

@@ -90,6 +90,15 @@ window.WHOAMI_PROFILE = {
       "ATM Penetration Testing & Security Assessment, Red Team Leaders (2026).",
       "Hardware Hacking Introduction, Red Team Leaders (2026).",
       "Master in Prompt Engineering and AI, Red Team Leaders (2026).",
+      "Anthropic AI Fluency for Educators (2026).",
+      "Anthropic Claude 101 (2026).",
+      "Anthropic Claude Code 101 (2026).",
+      "Anthropic Claude Code in Action (2026).",
+      "Anthropic Introduction to Agent Skills (2026).",
+      "HTB Academy Fundamentals of AI (2026).",
+      "BIG School Ciberseguridad y Hacking Etico - Deteccion de Vulnerabilidades y Defensa Digital (2026).",
+      "BIG School Desarrollo con IA de 0 a Produccion (2026).",
+      "Nica Security Hub Speaker/Facilitador TechClinics Hardware Hacking - Ciclo 05 (2026).",
       "LFS101: Introduction to Linux, The Linux Foundation (2026).",
       "Microsoft AI Skills Fest 2026.",
       "Microsoft Learn - Microsoft 365 Copilot Chat achievements (2026).",
@@ -105,7 +114,7 @@ window.WHOAMI_PROFILE = {
       "Udemy Cyber Security Awareness For Everyone (03-2023).",
       "GEM Inteligencia Artificial con Python (02-2023).",
       "Seguridad Cero Fundamentos de Ciberseguridad (11-2022).",
-      "HackemCON Cybersecurity Conference - Attendant (10-2022).",
+      "Hackem Cybersecurity Research Group - HackemCON 2022 Cybersecurity Conference Attendant Open Badge (2022).",
       "Hacker Mentor Ethical Hacking Red Team Segunda Edicion (10-2022).",
       "Udemy Deep Web - Introduccion a la Internet Profunda (08-2022).",
       "Hacker Mentor Ethical Hacking Red Team (07-2022).",
@@ -162,6 +171,74 @@ window.WHOAMI_PROFILE = {
       image: "https://images.credly.com/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png"
     }
   ],
+  credentialHighlights: [
+    {
+      title: "AI Fluency for Educators",
+      issuer: "Anthropic",
+      category: "Inteligencia Artificial",
+      image: "assets/img/credentials/anthropic-ai-fluency.jpg"
+    },
+    {
+      title: "Claude 101",
+      issuer: "Anthropic",
+      category: "Inteligencia Artificial",
+      image: "assets/img/credentials/anthropic-claude-101.jpg"
+    },
+    {
+      title: "Claude Code 101",
+      issuer: "Anthropic",
+      category: "AI Coding",
+      image: "assets/img/credentials/anthropic-claude-code-101.jpg"
+    },
+    {
+      title: "Claude Code in Action",
+      issuer: "Anthropic",
+      category: "AI Coding",
+      image: "assets/img/credentials/anthropic-claude-code-action.jpg"
+    },
+    {
+      title: "Introduction to Agent Skills",
+      issuer: "Anthropic",
+      category: "Agentes / Skills",
+      image: "assets/img/credentials/anthropic-agent-skills.jpg"
+    },
+    {
+      title: "Fundamentals of AI",
+      issuer: "HTB Academy",
+      category: "Inteligencia Artificial",
+      image: "assets/img/credentials/htb-fundamentals-ai.png"
+    },
+    {
+      title: "Ciberseguridad y Hacking Etico",
+      issuer: "BIG School",
+      category: "Vulnerabilidades / Defensa",
+      image: "assets/img/credentials/bigschool-ciberseguridad.jpg"
+    },
+    {
+      title: "Desarrollo con IA de 0 a Produccion",
+      issuer: "BIG School",
+      category: "AI Engineering",
+      image: "assets/img/credentials/bigschool-ia-produccion.jpg"
+    },
+    {
+      title: "TechClinics Hardware Hacking",
+      issuer: "Nica Security Hub",
+      category: "Facilitador",
+      image: "assets/img/credentials/nicasecurity-facilitador.jpg"
+    },
+    {
+      title: "TechClinics Hardware Hacking",
+      issuer: "Nica Security Hub",
+      category: "Speaker",
+      image: "assets/img/credentials/nicasecurity-speaker.jpg"
+    },
+    {
+      title: "HackemCON 2022",
+      issuer: "Hackem Cybersecurity Research Group",
+      category: "Open Badge",
+      image: "assets/img/credentials/hackemcon-2022.svg"
+    }
+  ],
   projects: [
     {
       name: "Hardware Hacking",
@@ -186,12 +263,32 @@ window.WHOAMI_PROFILE = {
       ]
     },
     {
+      name: "NFC QR Presenter",
+      status: "public/catalog",
+      stack: "Flipper Zero / C / NFC / QR",
+      description: "Aplicacion externa para Flipper Zero que presenta payloads como QR en pantalla y emula simultaneamente una etiqueta NFC NDEF.",
+      image: "assets/img/projects/nfc-qr-presenter.png",
+      tags: ["flipper zero", "nfc", "qr", "ndef"],
+      links: [
+        ["GitHub", "https://github.com/RogerF5-Security/NFC_QR_Presenter"],
+        ["Flipper Catalog", "https://lab.flipper.net/apps/nfc_qr_presenter"]
+      ]
+    },
+    {
       name: "Reportes-Burp",
       status: "public",
       stack: "Burp Suite / Reporting",
       description: "Repositorio orientado a reportes, plantillas y salida profesional para evidencias generadas desde Burp Suite.",
       tags: ["burp suite", "reporting", "pentest"],
       links: [["GitHub", "https://github.com/RogerF5-Security/Reportes-Burp"]]
+    },
+    {
+      name: "Kraken Tres D",
+      status: "public/venture",
+      stack: "Impresion 3D / Emprendimiento",
+      description: "Espacio publico para documentar y presentar el emprendimiento Kraken Tres D: diseno, piezas, servicios y prototipado con impresion 3D.",
+      tags: ["3d printing", "maker", "entrepreneurship"],
+      links: [["Sitio Web", "https://rogerf5-security.github.io/Kraken-Tres-D/"]]
     },
     {
       name: "RF5 RECON",
@@ -205,12 +302,25 @@ window.WHOAMI_PROFILE = {
       ]
     },
     {
-      name: "Scan Titan",
-      status: "local/private",
-      stack: "Python CLI",
-      description: "Scanner zero-touch para auditorias autorizadas con modulos web/API, Nmap, Nuclei y reportes HTML/XLSX.",
-      tags: ["scanner", "nmap", "nuclei"],
-      links: []
+      name: "Scan Titan Web Extension 2.1.0",
+      status: "public/store",
+      stack: "Browser Extension / Chrome Web Store",
+      description: "Extension publicada para apoyar flujos de auditoria web, organizacion de evidencias y revision rapida desde el navegador.",
+      image: "assets/img/projects/scan-titan-marquee.png",
+      tags: ["browser", "audit", "chrome store", "evidence"],
+      links: [
+        ["Chrome Web Store", "https://chromewebstore.google.com/detail/scan-titan/epdbmbbfkmmhkfcfhlpncfkehgcaldcb"],
+        ["Privacidad", "https://rogerf5arana.blogspot.com/p/politica-de-privacidad-de-scan-titan.html"],
+        ["Soporte", "https://rogerf5arana.blogspot.com/p/soporte-de-scan-titan-web-extension.html"]
+      ]
+    },
+    {
+      name: "AV--servers",
+      status: "public",
+      stack: "Python / Kali / Nmap / Nuclei",
+      description: "Scanner modular para auditorias autorizadas de servidores y servicios web con Nmap, WhatWeb, Nuclei, Nikto, SMBMap y reportes estructurados.",
+      tags: ["kali", "servers", "nmap", "nuclei", "reporting"],
+      links: [["GitHub", "https://github.com/RogerF5-Security/AV--servers"]]
     },
     {
       name: "WebSecAudit-RF",
@@ -230,27 +340,35 @@ window.WHOAMI_PROFILE = {
     },
     {
       name: "Flipper Asset Maker",
-      status: "local/private",
+      status: "public",
       stack: "Python / Tkinter / PIL",
       description: "Herramienta local para crear facilmente assets, animaciones, packs y estructuras compatibles con Flipper Zero.",
       tags: ["flipper zero", "assets", "python"],
-      links: []
+      links: [["GitHub", "https://github.com/RogerF5-Security/Flipper_Assest_Maker"]]
     },
     {
       name: "WikiFlip",
       status: "public/reference",
       stack: "Flipper Zero / C",
       description: "Aplicacion FAP con diccionario offline de ciberseguridad, 100 terminos y categorias OWASP/NIST/RedTeam/BlueTeam.",
+      image: "assets/img/projects/wikiflip-lanzamiento-es.png",
       tags: ["flipper zero", "fap", "reference"],
-      links: [["GitHub", "https://github.com/RogerF5-Security/WikiFlip"]]
+      links: [
+        ["GitHub", "https://github.com/RogerF5-Security/WikiFlip"],
+        ["Flipper Catalog", "https://lab.flipper.net/apps/wikiflip"]
+      ]
     },
     {
       name: "Mayan Decoder",
       status: "public/reference",
       stack: "Flipper Zero / C",
       description: "Aplicacion FAP que convierte numeros decimales a numerales mayas usando Canvas API.",
+      image: "assets/img/projects/mayan-decoder-banner.png",
       tags: ["flipper zero", "canvas", "education"],
-      links: [["GitHub", "https://github.com/RogerF5-Security/Mayan_decoder"]]
+      links: [
+        ["GitHub", "https://github.com/RogerF5-Security/Mayan_decoder"],
+        ["Flipper Catalog", "https://lab.flipper.net/apps/mayan_decoder"]
+      ]
     },
     {
       name: "Nuclei-Gui",
