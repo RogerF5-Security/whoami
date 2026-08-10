@@ -186,7 +186,6 @@ Additional approved visual credentials are included in `assets/img/credentials/`
 | [WikiFlip](https://github.com/RogerF5-Security/WikiFlip) | Public/reference | Flipper Zero / C | Offline cybersecurity dictionary FAP with OWASP, NIST, RedTeam, BlueTeam and hardware hacking terms. Catalog: [lab.flipper.net/apps/wikiflip](https://lab.flipper.net/apps/wikiflip). |
 | [Mayan Decoder](https://github.com/RogerF5-Security/Mayan_decoder) | Public/reference | Flipper Zero / C | Flipper Zero FAP that converts decimal numbers into Mayan numerals with Canvas rendering. Catalog: [lab.flipper.net/apps/mayan_decoder](https://lab.flipper.net/apps/mayan_decoder). |
 | Nuclei-Gui | Local/private reference | Python GUI | Local interface for organizing Nuclei execution and results in audit workflows. |
-| RedTeam Suite / Reorden | Local/private reference | Python | Internal recon and HTTP wrapper tooling for controlled audit operations. |
 
 Local/private entries are mentioned as portfolio references only. Their source code is not included in this repository.
 

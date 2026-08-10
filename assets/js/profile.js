@@ -377,14 +377,6 @@ window.WHOAMI_PROFILE = {
       description: "Interfaz local para ejecutar, organizar y revisar resultados de Nuclei en flujos de auditoria.",
       tags: ["nuclei", "gui", "workflow"],
       links: []
-    },
-    {
-      name: "RedTeam Suite / Reorden",
-      status: "local/private",
-      stack: "Python",
-      description: "Tooling interno de recon y HTTP wrappers para auditorias controladas, con politica de ruido TLS reducida.",
-      tags: ["recon", "http", "ops"],
-      links: []
     }
   ],
   videos: [
