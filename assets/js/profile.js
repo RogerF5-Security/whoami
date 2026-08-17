@@ -252,6 +252,18 @@ window.WHOAMI_PROFILE = {
       ]
     },
     {
+      name: "BLE Scout",
+      status: "public/firmware",
+      stack: "ESP32-S3 / BLE / Wi-Fi / C++",
+      description: "Firmware autonomo para LILYGO T-Dongle-S3: inventaria anuncios BLE, elimina duplicados, muestra un radar TFT y guarda evidencias CSV/HTML en microSD con panel web movil.",
+      image: "assets/img/projects/ble-scout.png",
+      tags: ["lilygo", "bluetooth low energy", "esp32-s3", "hardware audit"],
+      links: [
+        ["GitHub", "https://github.com/RogerF5-Security/BLE-Scout"],
+        ["Descargar firmware", "https://github.com/RogerF5-Security/BLE-Scout/releases/latest"]
+      ]
+    },
+    {
       name: "Flipper Zero Emulador Didactico Web",
       status: "public/demo",
       stack: "JavaScript / Flipper Zero / Training",
