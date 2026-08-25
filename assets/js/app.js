@@ -171,16 +171,24 @@
     renderInto(
       "credentialGrid",
       profile.credentialHighlights
-        .map(
-          (item) => `<article class="credential-card">
-            <img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" />
+        .map((item) => {
+          const featuredClass = item.featured ? " credential-card--featured" : "";
+          const featuredLabel = item.featured
+            ? '<span class="featured-label">Mile2 / Certificacion destacada</span>'
+            : "";
+
+          return `<article class="credential-card${featuredClass}">
+            <a class="credential-image-link" href="${escapeHtml(item.image)}" target="_blank" rel="noopener noreferrer" aria-label="Abrir ${escapeHtml(item.title)} en tamano completo">
+              <img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" />
+            </a>
             <div>
+              ${featuredLabel}
               <span class="status-pill">${escapeHtml(item.category)}</span>
               <h3>${escapeHtml(item.title)}</h3>
               <p>${escapeHtml(item.issuer)}</p>
             </div>
-          </article>`
-        )
+          </article>`;
+        })
         .join("")
     );
 

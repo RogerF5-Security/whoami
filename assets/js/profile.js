@@ -8,7 +8,7 @@ window.WHOAMI_PROFILE = {
     tagline: "Recon faster. Validate deeper. Report cleaner. Harden smarter.",
     mode: "Authorized offensive security | Python automation | Hardware hacking"
   },
-  certifications: ["CPTE", "CEHP", "Cisco Ethical Hacker", "Fortinet NSE 1"],
+  certifications: ["Mile2 C)PTE", "Mile2 C)PEH", "Cisco Ethical Hacker", "Fortinet NSE 1", "Hack & Fix CAIS"],
   skills: [
     {
       area: "Offensive Security",
@@ -42,7 +42,7 @@ window.WHOAMI_PROFILE = {
       "Ubicacion: Zacapa, Guatemala.",
       "Perfil: Ingeniero en Sistemas | Ingeniero en Seguridad Ofensiva y Desarrollo Seguro.",
       "Especialidad: pentesting web, movil, APIs, infraestructura, ATMs, revision de codigo seguro, automatizacion de auditorias y hardware hacking.",
-      "Certificaciones principales: Mile2 CPTE, Mile2 CEHP, Cisco Ethical Hacker, Fortinet NSE 1, CCEP."
+      "Certificaciones principales: Mile2 C)PTE, Mile2 C)PEH, Hack & Fix CAIS, Cisco Ethical Hacker, Fortinet NSE 1 y CCEP."
     ],
     experience: [
       {
@@ -83,10 +83,8 @@ window.WHOAMI_PROFILE = {
       "Universidad Mariano Galvez de Guatemala - Maestria en Informatica Aplicada (2022)."
     ],
     training: [
-      "Mile2 CPTE - Certified Penetration Testing Engineer (2024).",
-      "Cisco Ethical Hacker (2024).",
-      "Mile2 CEHP - Certified Ethical Hacker Professional (2024).",
-      "Certified Cybersecurity Educator Professional - CCEP, Red Team Leaders (2025).",
+      "Certified AI Security Specialist - CAIS, Hack & Fix (2026).",
+      "Understanding the OWASP Top 10 Security Threats - SKF100, The Linux Foundation (2026).",
       "ATM Penetration Testing & Security Assessment, Red Team Leaders (2026).",
       "Hardware Hacking Introduction, Red Team Leaders (2026).",
       "Master in Prompt Engineering and AI, Red Team Leaders (2026).",
@@ -102,11 +100,16 @@ window.WHOAMI_PROFILE = {
       "LFS101: Introduction to Linux, The Linux Foundation (2026).",
       "Microsoft AI Skills Fest 2026.",
       "Microsoft Learn - Microsoft 365 Copilot Chat achievements (2026).",
+      "Certified Cybersecurity Educator Professional - CCEP, Red Team Leaders (2025).",
       "Control efectivo de la corrupcion - America Latina (2025).",
       "Introduccion a la seguridad de la informacion (2025).",
       "Proteccion de datos personales en America Movil (2025).",
       "Programa de Integridad y Cumplimiento (2025).",
       "Codigo de Etica (2025).",
+      "Mile2 C)PTE - Certified Penetration Testing Engineer (2024).",
+      "Mile2 C)PEH - Certified Professional Ethical Hacker (2024).",
+      "Cisco Ethical Hacker (2024).",
+      "PWN3D! CON - Certificado de participacion, Cyber Center / PWN3D! (09-2024).",
       "Udemy Curso de Domotica (07-2023).",
       "Cisco Introduction to Cybersecurity (04-2023).",
       "Fortinet Network Security Expert 1 (04-2023).",
@@ -124,6 +127,7 @@ window.WHOAMI_PROFILE = {
       "Udemy Pentesting and Securing Web Applications (07-2021).",
       "Udemy Offensive Hacking Unfolded - Become a Pentester (07-2021).",
       "Udemy Ultimate Ethical Hacking and Penetration Testing (05-2021).",
+      "Introduccion a la Programacion, Bases de Datos y Desarrollo Web, Universidad Mariano Galvez (10-2021).",
       "Google Activate Protege tu Negocio - Ciberseguridad en el Teletrabajo (02-2021).",
       "Google Activate Certificacion en Comercio Electronico (04-2020).",
       "SoloLearn Fundamentos de SQL (03-2019).",
@@ -172,6 +176,32 @@ window.WHOAMI_PROFILE = {
     }
   ],
   credentialHighlights: [
+    {
+      title: "C)PEH: Certified Professional Ethical Hacker",
+      issuer: "Mile2 Cybersecurity Certifications",
+      category: "Certificacion principal",
+      image: "assets/img/credentials/mile2-cpeh.png",
+      featured: true
+    },
+    {
+      title: "C)PTE: Certified Penetration Testing Engineer",
+      issuer: "Mile2 Cybersecurity Certifications",
+      category: "Certificacion principal",
+      image: "assets/img/credentials/mile2-cpte.png",
+      featured: true
+    },
+    {
+      title: "Certified AI Security Specialist (CAIS)",
+      issuer: "Hack & Fix",
+      category: "AI Security",
+      image: "assets/img/credentials/hackfix-cais.png"
+    },
+    {
+      title: "Understanding the OWASP Top 10 Security Threats (SKF100)",
+      issuer: "The Linux Foundation",
+      category: "Application Security",
+      image: "assets/img/credentials/linux-foundation-skf100.png"
+    },
     {
       title: "AI Fluency for Educators",
       issuer: "Anthropic",

@@ -25,7 +25,7 @@ ROLE     : Ingeniero en Sistemas | Ingeniero en Seguridad Ofensiva y Desarrollo 
 MODE     : Authorized offensive security | Python automation | Hardware hacking
 MISSION  : Recon faster. Validate deeper. Report cleaner. Harden smarter.
 
-CERTS    : CPTE | CEHP | CCEP | Cisco Ethical Hacker | Fortinet NSE 1
+CERTS    : Mile2 C)PTE | Mile2 C)PEH | Hack & Fix CAIS | CCEP | Cisco Ethical Hacker | Fortinet NSE 1
 ```
 
 ## Professional Profile
@@ -96,9 +96,12 @@ Public contact is routed through professional profiles. Personal phone and email
 
 ## Certifications And Training
 
-- Mile2 CPTE - Certified Penetration Testing Engineer (2024).
+- Certified AI Security Specialist - CAIS, Hack & Fix (2026).
+- Understanding the OWASP Top 10 Security Threats - SKF100, The Linux Foundation (2026).
+- Mile2 C)PTE - Certified Penetration Testing Engineer (2024).
 - Cisco Ethical Hacker (2024).
-- Mile2 CEHP - Certified Ethical Hacker Professional (2024).
+- Mile2 C)PEH - Certified Professional Ethical Hacker (2024).
+- PWN3D! CON - Certificado de participacion, Cyber Center / PWN3D! (09-2024).
 - Certified Cybersecurity Educator Professional - CCEP, Red Team Leaders (2025).
 - ATM Penetration Testing & Security Assessment, Red Team Leaders (2026).
 - Hardware Hacking Introduction, Red Team Leaders (2026).
@@ -137,6 +140,7 @@ Public contact is routed through professional profiles. Personal phone and email
 - Udemy Pentesting and Securing Web Applications (07-2021).
 - Udemy Offensive Hacking Unfolded - Become a Pentester (07-2021).
 - Udemy Ultimate Ethical Hacking and Penetration Testing (05-2021).
+- Introduccion a la Programacion, Bases de Datos y Desarrollo Web, Universidad Mariano Galvez (10-2021).
 - Google Activate Protege tu Negocio - Ciberseguridad en el Teletrabajo (02-2021).
 - Google Activate Certificacion en Comercio Electronico (04-2020).
 - SoloLearn Fundamentos de SQL (03-2019).
@@ -150,6 +154,18 @@ Public contact is routed through professional profiles. Personal phone and email
 - [Introduction to Cybersecurity - Cisco](https://www.credly.com/badges/d0c93c68-0255-45f9-a55f-6a3be7c1373b)
 
 ## Credential Visual Highlights
+
+### Mile2 Featured Certifications
+
+| C)PEH | C)PTE |
+| --- | --- |
+| <a href="assets/img/credentials/mile2-cpeh.png"><img src="assets/img/credentials/mile2-cpeh.png" alt="Mile2 CPEH Certified Professional Ethical Hacker" width="100%" /></a> | <a href="assets/img/credentials/mile2-cpte.png"><img src="assets/img/credentials/mile2-cpte.png" alt="Mile2 CPTE Certified Penetration Testing Engineer" width="100%" /></a> |
+
+### Recent Training
+
+| AI Security | Application Security |
+| --- | --- |
+| <a href="assets/img/credentials/hackfix-cais.png"><img src="assets/img/credentials/hackfix-cais.png" alt="Hack and Fix Certified AI Security Specialist" width="100%" /></a> | <a href="assets/img/credentials/linux-foundation-skf100.png"><img src="assets/img/credentials/linux-foundation-skf100.png" alt="Linux Foundation Understanding the OWASP Top 10 Security Threats SKF100" width="100%" /></a> |
 
 | Anthropic | HTB Academy | BIG School | Community |
 | --- | --- | --- | --- |
@@ -210,7 +226,7 @@ Local/private entries are mentioned as portfolio references only. Their source c
 ## Site Experience
 
 - HR-friendly CV view with all key information visible by sections.
-- Dark professional cybersecurity UI with local hero visual asset.
+- Dark professional cybersecurity UI with a personal photo and Roger F5 logo gallery in the hero.
 - Optional interactive terminal for technical visitors.
 - Static deployment with no build step.
 
@@ -252,6 +268,7 @@ help
 |   |   |-- hero-soc.png
 |   |   |-- credentials
 |   |   |-- evidence
+|   |   |-- profile
 |   |   `-- projects
 |   `-- js
 |       |-- profile.js
