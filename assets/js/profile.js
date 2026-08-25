@@ -32,15 +32,27 @@ window.WHOAMI_PROFILE = {
     }
   ],
   bio: [
-    "Roger Fernando Arana Lemus, tambien conocido como Roger F5, es Ingeniero en Sistemas, Ingeniero en Seguridad Ofensiva y Desarrollo Seguro basado en Zacapa, Guatemala.",
+    "Roger Arana también conocido como Roger F5, Ingeniero en Sistemas.",
     "Actualmente trabaja en una empresa privada telco, con foco en escaneo de vulnerabilidades, pentesting web/API/infraestructura, revision de codigo seguro, herramientas internas y estrategias de ciberseguridad.",
     "Construye herramientas propias en Python para automatizar auditorias, fuzzing, validacion de vulnerabilidades, explotacion controlada y laboratorios de hardware hacking."
+  ],
+  academicTitles: [
+    {
+      title: "Profesor en Productividad y Desarrollo",
+      institution: "Universidad de San Carlos de Guatemala",
+      period: "2016 - 2018"
+    },
+    {
+      title: "Licenciado en Educación y Desarrollo Político Social",
+      institution: "Universidad de San Carlos de Guatemala",
+      period: "2018 - 2020"
+    }
   ],
   cv: {
     summary: [
       "Nombre: Roger Fernando Arana Lemus.",
       "Ubicacion: Zacapa, Guatemala.",
-      "Perfil: Ingeniero en Sistemas | Ingeniero en Seguridad Ofensiva y Desarrollo Seguro.",
+      "Perfil: Ingeniero en Sistemas | Profesor en Productividad y Desarrollo | Licenciado en Educación y Desarrollo Político Social | Ingeniero en Seguridad Ofensiva y Desarrollo Seguro.",
       "Especialidad: pentesting web, movil, APIs, infraestructura, ATMs, revision de codigo seguro, automatizacion de auditorias y hardware hacking.",
       "Certificaciones principales: Mile2 C)PTE, Mile2 C)PEH, Hack & Fix CAIS, Cisco Ethical Hacker, Fortinet NSE 1 y CCEP."
     ],
@@ -79,7 +91,7 @@ window.WHOAMI_PROFILE = {
     education: [
       "Universidad Mariano Galvez de Guatemala - Ingenieria en Sistemas (2016 - 2021).",
       "Universidad de San Carlos de Guatemala - Profesor en Productividad y Desarrollo (2016 - 2018).",
-      "Universidad de San Carlos de Guatemala - Licenciatura en Educacion y Desarrollo Politico Social (2018 - 2020).",
+      "Universidad de San Carlos de Guatemala - Licenciado en Educación y Desarrollo Político Social (2018 - 2020).",
       "Universidad Mariano Galvez de Guatemala - Maestria en Informatica Aplicada (2022)."
     ],
     training: [

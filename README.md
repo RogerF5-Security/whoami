@@ -22,6 +22,7 @@ IDENTITY : Roger Fernando Arana Lemus
 HANDLE   : Roger F5
 LOCATION : Zacapa, Guatemala
 ROLE     : Ingeniero en Sistemas | Ingeniero en Seguridad Ofensiva y Desarrollo Seguro
+ACADEMIC : Profesor en Productividad y Desarrollo | Licenciado en Educacion y Desarrollo Politico Social
 MODE     : Authorized offensive security | Python automation | Hardware hacking
 MISSION  : Recon faster. Validate deeper. Report cleaner. Harden smarter.
 
@@ -91,7 +92,7 @@ Public contact is routed through professional profiles. Personal phone and email
 
 - Universidad Mariano Galvez de Guatemala - Ingenieria en Sistemas (2016 - 2021).
 - Universidad de San Carlos de Guatemala - Profesor en Productividad y Desarrollo (2016 - 2018).
-- Universidad de San Carlos de Guatemala - Licenciatura en Educacion y Desarrollo Politico Social (2018 - 2020).
+- Universidad de San Carlos de Guatemala - Licenciado en Educacion y Desarrollo Politico Social (2018 - 2020).
 - Universidad Mariano Galvez de Guatemala - Maestria en Informatica Aplicada (2022).
 
 ## Certifications And Training
