@@ -151,44 +151,89 @@ window.WHOAMI_PROFILE = {
   ],
   credlyBadges: [
     {
+      name: "SKF100: Understanding the OWASP Top 10 Security Threats",
+      issuer: "The Linux Foundation",
+      issued: "18 ago 2026",
+      url: "https://www.credly.com/badges/2f1c9236-24fe-4be4-866f-88f72edfd0bc",
+      image: "https://images.credly.com/size/340x340/images/18d8c64f-cf68-4259-b0ef-2a116e9224f1/blob"
+    },
+    {
       name: "AI Skills Fest 2026",
       issuer: "Microsoft",
+      issued: "19 jun 2026",
       url: "https://www.credly.com/badges/2f0d9868-9fa9-4125-95a0-e2565339439a",
       image: "https://images.credly.com/images/082c8d0c-5232-4597-b6c4-6bebcc4f3046/blob"
     },
     {
       name: "LFS101: Introduction to Linux",
       issuer: "The Linux Foundation",
+      issued: "18 jun 2026",
       url: "https://www.credly.com/badges/22dc45c8-4039-4579-9a14-a61f489636eb",
       image: "https://images.credly.com/images/97a95d07-04c3-4afb-952a-6bcf46ddb87e/blob"
     },
     {
       name: "Ethical Hacker",
       issuer: "Cisco",
+      issued: "3 nov 2024",
       url: "https://www.credly.com/badges/9139a68e-205e-4115-b6c7-bc311beb5873",
       image: "https://images.credly.com/images/242902b5-f527-42ad-865e-977c9e1b5b58/image.png"
     },
     {
       name: "Introduction to Cybersecurity",
       issuer: "Cisco",
+      issued: "30 sep 2024",
       url: "https://www.credly.com/badges/d0c93c68-0255-45f9-a55f-6a3be7c1373b",
       image: "https://images.credly.com/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png"
     }
   ],
   credentialHighlights: [
     {
-      title: "C)PEH: Certified Professional Ethical Hacker",
+      title: "Mile2 C)PTE - Certified Penetration Testing Engineer (2024)",
       issuer: "Mile2 Cybersecurity Certifications",
-      category: "Certificacion principal",
-      image: "assets/img/credentials/mile2-cpeh.png",
-      featured: true
+      category: "Pentesting",
+      image: "assets/img/credentials/mile2-cpte.png",
+      featured: true,
+      featuredLabel: "Mile2 / Certificacion destacada"
     },
     {
-      title: "C)PTE: Certified Penetration Testing Engineer",
+      title: "Cisco Ethical Hacker (2024)",
+      issuer: "Cisco Networking Academy",
+      category: "Ethical Hacking",
+      image: "assets/img/credentials/cisco-ethical-hacker.png",
+      featured: true,
+      featuredLabel: "Cisco / Certificacion destacada"
+    },
+    {
+      title: "Mile2 C)PEH - Certified Professional Ethical Hacker (2024)",
       issuer: "Mile2 Cybersecurity Certifications",
-      category: "Certificacion principal",
-      image: "assets/img/credentials/mile2-cpte.png",
-      featured: true
+      category: "Ethical Hacking",
+      image: "assets/img/credentials/mile2-cpeh.png",
+      featured: true,
+      featuredLabel: "Mile2 / Certificacion destacada"
+    },
+    {
+      title: "Certified Cybersecurity Educator Professional - CCEP (2025)",
+      issuer: "Red Team Leaders",
+      category: "Cybersecurity Education",
+      image: "assets/img/credentials/red-team-leaders-ccep.png",
+      featured: true,
+      featuredLabel: "Red Team Leaders / Certificacion destacada"
+    },
+    {
+      title: "ATM Penetration Testing & Security Assessment (2026)",
+      issuer: "Red Team Leaders",
+      category: "ATM Security",
+      image: "assets/img/credentials/red-team-leaders-atm-pentest.png",
+      featured: true,
+      featuredLabel: "Red Team Leaders / Curso destacado"
+    },
+    {
+      title: "Hardware Hacking Introduction (2026)",
+      issuer: "Red Team Leaders",
+      category: "Hardware Hacking",
+      image: "assets/img/credentials/red-team-leaders-hardware-hacking.png",
+      featured: true,
+      featuredLabel: "Red Team Leaders / Curso destacado"
     },
     {
       title: "Certified AI Security Specialist (CAIS)",

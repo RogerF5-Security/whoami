@@ -174,7 +174,7 @@
         .map((item) => {
           const featuredClass = item.featured ? " credential-card--featured" : "";
           const featuredLabel = item.featured
-            ? '<span class="featured-label">Mile2 / Certificacion destacada</span>'
+            ? `<span class="featured-label">${escapeHtml(item.featuredLabel || "Certificacion destacada")}</span>`
             : "";
 
           return `<article class="credential-card${featuredClass}">
@@ -200,6 +200,7 @@
             <img src="${escapeHtml(badge.image)}" alt="${escapeHtml(badge.name)} badge" loading="lazy" />
             <strong>${escapeHtml(badge.name)}</strong>
             <span>${escapeHtml(badge.issuer)}</span>
+            <span class="badge-issued">Emitido: ${escapeHtml(badge.issued)}</span>
           </a>`
         )
         .join("")
@@ -568,6 +569,33 @@ These names describe personal tooling areas only. No local source files are bund
     }
   }
 
+  function initProfileCarousel() {
+    const carousel = document.querySelector("[data-profile-carousel]");
+    const track = carousel?.querySelector("[data-carousel-track]");
+    const previous = carousel?.querySelector("[data-carousel-prev]");
+    const next = carousel?.querySelector("[data-carousel-next]");
+
+    if (!carousel || !track || !previous || !next) {
+      return;
+    }
+
+    const move = (direction) => {
+      const item = track.querySelector(".profile-carousel-item");
+      const gap = Number.parseFloat(window.getComputedStyle(track).columnGap) || 0;
+      const distance = (item?.getBoundingClientRect().width || 96) + gap;
+      track.scrollBy({ left: distance * direction, behavior: "smooth" });
+    };
+
+    previous.addEventListener("click", () => move(-1));
+    next.addEventListener("click", () => move(1));
+    track.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+        event.preventDefault();
+        move(event.key === "ArrowLeft" ? -1 : 1);
+      }
+    });
+  }
+
   async function typeBootLine(line) {
     for (const char of line) {
       bootLog.textContent += char;
@@ -579,6 +607,7 @@ These names describe personal tooling areas only. No local source files are bund
 
   async function bootSequence() {
     renderPortfolio();
+    initProfileCarousel();
     for (const line of bootLines) {
       await typeBootLine(line);
     }

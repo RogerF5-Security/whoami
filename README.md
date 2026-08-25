@@ -148,6 +148,7 @@ Public contact is routed through professional profiles. Personal phone and email
 
 ## Credly Badges
 
+- [SKF100: Understanding the OWASP Top 10 Security Threats - The Linux Foundation](https://www.credly.com/badges/2f1c9236-24fe-4be4-866f-88f72edfd0bc)
 - [AI Skills Fest 2026 - Microsoft](https://www.credly.com/badges/2f0d9868-9fa9-4125-95a0-e2565339439a)
 - [LFS101: Introduction to Linux - The Linux Foundation](https://www.credly.com/badges/22dc45c8-4039-4579-9a14-a61f489636eb)
 - [Ethical Hacker - Cisco](https://www.credly.com/badges/9139a68e-205e-4115-b6c7-bc311beb5873)
@@ -155,11 +156,19 @@ Public contact is routed through professional profiles. Personal phone and email
 
 ## Credential Visual Highlights
 
-### Mile2 Featured Certifications
+### Featured Certifications and Training
 
-| C)PEH | C)PTE |
+| Mile2 C)PTE | Cisco Ethical Hacker |
 | --- | --- |
-| <a href="assets/img/credentials/mile2-cpeh.png"><img src="assets/img/credentials/mile2-cpeh.png" alt="Mile2 CPEH Certified Professional Ethical Hacker" width="100%" /></a> | <a href="assets/img/credentials/mile2-cpte.png"><img src="assets/img/credentials/mile2-cpte.png" alt="Mile2 CPTE Certified Penetration Testing Engineer" width="100%" /></a> |
+| <a href="assets/img/credentials/mile2-cpte.png"><img src="assets/img/credentials/mile2-cpte.png" alt="Mile2 C)PTE Certified Penetration Testing Engineer" width="100%" /></a> | <a href="assets/img/credentials/cisco-ethical-hacker.png"><img src="assets/img/credentials/cisco-ethical-hacker.png" alt="Cisco Ethical Hacker" width="100%" /></a> |
+
+| Mile2 C)PEH | Red Team Leaders CCEP |
+| --- | --- |
+| <a href="assets/img/credentials/mile2-cpeh.png"><img src="assets/img/credentials/mile2-cpeh.png" alt="Mile2 C)PEH Certified Professional Ethical Hacker" width="100%" /></a> | <a href="assets/img/credentials/red-team-leaders-ccep.png"><img src="assets/img/credentials/red-team-leaders-ccep.png" alt="Red Team Leaders Certified Cybersecurity Educator Professional CCEP" width="100%" /></a> |
+
+| ATM Penetration Testing & Security Assessment | Hardware Hacking Introduction |
+| --- | --- |
+| <a href="assets/img/credentials/red-team-leaders-atm-pentest.png"><img src="assets/img/credentials/red-team-leaders-atm-pentest.png" alt="Red Team Leaders ATM Penetration Testing and Security Assessment" width="100%" /></a> | <a href="assets/img/credentials/red-team-leaders-hardware-hacking.png"><img src="assets/img/credentials/red-team-leaders-hardware-hacking.png" alt="Red Team Leaders Hardware Hacking Introduction" width="100%" /></a> |
 
 ### Recent Training
 
