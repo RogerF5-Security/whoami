@@ -351,6 +351,18 @@ window.WHOAMI_PROFILE = {
       ]
     },
     {
+      name: "Scan Titan Zero Touch",
+      status: "public/open-source",
+      stack: "Python / asyncio / Nmap / Nuclei / OWASP ZAP",
+      description: "Plataforma de auditoria ofensiva automatizada que conecta reconocimiento, pruebas web inteligentes, motores externos, telemetria del arbol de procesos y reportes trazables en una sola ejecucion Zero Touch.",
+      image: "assets/img/projects/scan-titan-zero-touch.png",
+      tags: ["zero touch", "web security", "orchestration", "reporting"],
+      links: [
+        ["GitHub", "https://github.com/RogerF5-Security/Scan-Titan"],
+        ["Demo interactiva", "https://rogerf5-security.github.io/Scan-Titan/"]
+      ]
+    },
+    {
       name: "Flipper Zero Emulador Didactico Web",
       status: "public/demo",
       stack: "JavaScript / Flipper Zero / Training",
