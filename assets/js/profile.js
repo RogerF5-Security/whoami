@@ -332,6 +332,7 @@ window.WHOAMI_PROFILE = {
       status: "public/demo",
       stack: "Hardware Hacking / RF / Web",
       description: "Repositorio y laboratorio web para documentar flujos de hardware hacking, RF, herramientas fisicas y aprendizaje practico.",
+      image: "assets/img/projects/hardware-hacking.png",
       tags: ["hardware", "rf", "training"],
       links: [
         ["GitHub", "https://github.com/RogerF5-Security/Hardware_Hacking"],
@@ -367,6 +368,7 @@ window.WHOAMI_PROFILE = {
       status: "public/demo",
       stack: "JavaScript / Flipper Zero / Training",
       description: "Emulador web didactico para explicar conceptos, pantallas y flujos del Flipper Zero desde el navegador.",
+      image: "assets/img/projects/flipper-zero-emulador.png",
       tags: ["flipper zero", "web lab", "education"],
       links: [
         ["GitHub", "https://github.com/RogerF5-Security/Flipper-Zero-Emulador-Didactico-Web"],
