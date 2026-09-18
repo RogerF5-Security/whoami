@@ -405,12 +405,13 @@ window.WHOAMI_PROFILE = {
     },
     {
       name: "RF5 RECON",
-      status: "public",
-      stack: "Browser Extension",
-      description: "Extension de navegador para acelerar reconocimiento y flujos de seguridad desde el browser.",
-      tags: ["browser", "recon", "automation"],
+      status: "public / v3.1",
+      stack: "Chrome MV3 / Web Recon / JSON Evidence",
+      description: "Extensión de reconocimiento web pasivo: identifica IP DNS, cabeceras, CSP, cookies, tecnologías, formularios, endpoints y recursos públicos para iniciar auditorías con evidencia exportable.",
+      tags: ["browser", "web recon", "headers", "dns", "owasp"],
       links: [
-        ["Chrome Web Store", "https://chromewebstore.google.com/detail/ojibelahcinfehgdahcmamkinjjaabgd?utm_source=item-share-cb"],
+        ["GitHub", "https://github.com/RogerF5-Security/RF5-RECON"],
+        ["Chrome Web Store", "https://chromewebstore.google.com/detail/rf5-recon/ojibelahcinfehgdahcmamkinjjaabgd?hl=es"],
         ["Firefox Add-ons", "https://addons.mozilla.org/en-US/firefox/addon/rf5-recon/"]
       ]
     },
