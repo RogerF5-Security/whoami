@@ -340,6 +340,15 @@ window.WHOAMI_PROFILE = {
       ]
     },
     {
+      name: "Login Discover",
+      status: "public/local",
+      stack: "Python / GUI / HTTP",
+      description: "Descubre superficies de autenticacion y permite analizar peticiones de login con limites de solicitudes y comparacion de respuestas.",
+      image: "assets/img/projects/login-discover.webp",
+      tags: ["authentication", "web recon", "python"],
+      links: [["GitHub e instalacion", "https://github.com/RogerF5-Security/Login_Discover"]]
+    },
+    {
       name: "BLE Scout",
       status: "public/firmware",
       stack: "ESP32-S3 / BLE / Wi-Fi / C++",
@@ -360,7 +369,7 @@ window.WHOAMI_PROFILE = {
       tags: ["zero touch", "web security", "orchestration", "reporting"],
       links: [
         ["GitHub", "https://github.com/RogerF5-Security/Scan-Titan"],
-        ["Demo interactiva", "https://rogerf5-security.github.io/Scan-Titan/"]
+        ["Web del proyecto", "https://rogerf5-security.github.io/Scan-Titan/"]
       ]
     },
     {
@@ -376,6 +385,24 @@ window.WHOAMI_PROFILE = {
       ]
     },
     {
+      name: "Wireless Audit",
+      status: "public/local",
+      stack: "Python / Wi-Fi / GUI",
+      description: "Inventario inalambrico, radar y wardriving con diagnostico de adaptadores y exportacion de evidencias locales.",
+      image: "assets/img/projects/wireless-audit.webp",
+      tags: ["wifi", "radar", "wardriving", "python"],
+      links: [["GitHub e instalacion", "https://github.com/RogerF5-Security/Wireless_Audit"]]
+    },
+    {
+      name: "IP Total",
+      status: "public/local",
+      stack: "Python / DNS / WHOIS / TLS",
+      description: "Perfila IP o dominios mediante DNS, WHOIS, puertos, web y TLS; genera reportes HTML y JSON desde GUI o CLI.",
+      image: "assets/img/projects/ip-total.webp",
+      tags: ["recon", "dns", "reporting", "python"],
+      links: [["GitHub e instalacion", "https://github.com/RogerF5-Security/IP_Total"]]
+    },
+    {
       name: "NFC QR Presenter",
       status: "public/catalog",
       stack: "Flipper Zero / C / NFC / QR",
@@ -388,18 +415,12 @@ window.WHOAMI_PROFILE = {
       ]
     },
     {
-      name: "Reportes-Burp",
-      status: "public",
-      stack: "Burp Suite / Reporting",
-      description: "Repositorio orientado a reportes, plantillas y salida profesional para evidencias generadas desde Burp Suite.",
-      tags: ["burp suite", "reporting", "pentest"],
-      links: [["GitHub", "https://github.com/RogerF5-Security/Reportes-Burp"]]
-    },
-    {
       name: "Kraken Tres D",
       status: "public/venture",
       stack: "Impresion 3D / Emprendimiento",
       description: "Espacio publico para documentar y presentar el emprendimiento Kraken Tres D: diseno, piezas, servicios y prototipado con impresion 3D.",
+      image: "assets/img/projects/kraken-tres-d.webp",
+      imageAlt: "Captura del sitio de Kraken Tres D",
       tags: ["3d printing", "maker", "entrepreneurship"],
       links: [["Sitio Web", "https://rogerf5-security.github.io/Kraken-Tres-D/"]]
     },
@@ -408,6 +429,8 @@ window.WHOAMI_PROFILE = {
       status: "public / v3.1",
       stack: "Chrome MV3 / Web Recon / JSON Evidence",
       description: "Extensión de reconocimiento web pasivo: identifica IP DNS, cabeceras, CSP, cookies, tecnologías, formularios, endpoints y recursos públicos para iniciar auditorías con evidencia exportable.",
+      image: "assets/img/projects/rf5-recon.png",
+      imageAlt: "Interfaz RF5 RECON con datos de ejemplo, sin analisis real",
       tags: ["browser", "web recon", "headers", "dns", "owasp"],
       links: [
         ["GitHub", "https://github.com/RogerF5-Security/RF5-RECON"],
@@ -429,34 +452,12 @@ window.WHOAMI_PROFILE = {
       ]
     },
     {
-      name: "AV--servers",
-      status: "public",
-      stack: "Python / Kali / Nmap / Nuclei",
-      description: "Scanner modular para auditorias autorizadas de servidores y servicios web con Nmap, WhatWeb, Nuclei, Nikto, SMBMap y reportes estructurados.",
-      tags: ["kali", "servers", "nmap", "nuclei", "reporting"],
-      links: [["GitHub", "https://github.com/RogerF5-Security/AV--servers"]]
-    },
-    {
-      name: "WebSecAudit-RF",
-      status: "local/private",
-      stack: "Python GUI",
-      description: "Suite grafica de auditoria web con plugins, autenticacion, dashboard y reportes HTML profesionales.",
-      tags: ["web", "gui", "reporting"],
-      links: []
-    },
-    {
-      name: "AuditRF",
-      status: "local/private",
-      stack: "Python Framework",
-      description: "Framework modular para auditorias web, plugins de escaneo, reportes y automatizacion de evidencia.",
-      tags: ["framework", "plugins", "evidence"],
-      links: []
-    },
-    {
       name: "Flipper Asset Maker",
       status: "public",
       stack: "Python / Tkinter / PIL",
       description: "Herramienta local para crear facilmente assets, animaciones, packs y estructuras compatibles con Flipper Zero.",
+      image: "assets/img/projects/flipper-asset-maker.png",
+      imageAlt: "Captura real de Flipper Asset Maker Pro",
       tags: ["flipper zero", "assets", "python"],
       links: [["GitHub", "https://github.com/RogerF5-Security/Flipper_Assest_Maker"]]
     },
@@ -483,14 +484,6 @@ window.WHOAMI_PROFILE = {
         ["GitHub", "https://github.com/RogerF5-Security/Mayan_decoder"],
         ["Flipper Catalog", "https://lab.flipper.net/apps/mayan_decoder"]
       ]
-    },
-    {
-      name: "Nuclei-Gui",
-      status: "local/private",
-      stack: "Python GUI",
-      description: "Interfaz local para ejecutar, organizar y revisar resultados de Nuclei en flujos de auditoria.",
-      tags: ["nuclei", "gui", "workflow"],
-      links: []
     }
   ],
   videos: [

@@ -196,26 +196,25 @@ Additional approved visual credentials are included in `assets/img/credentials/`
 
 ## Featured Projects
 
+[RF5 Tools](https://rogerf5-security.github.io/Pwn3dToolSet/) brings together six tools, screenshots, source code, and paths to demos or installation guides.
+
 | Project | Status | Stack | Description |
 | --- | --- | --- | --- |
 | [Hardware Hacking](https://github.com/RogerF5-Security/Hardware_Hacking) | Public/demo | Hardware Hacking / RF / Web | Public repository and web lab for hardware hacking, RF, physical tooling and practical learning. Demo: [rogerf5-security.github.io/Hardware_Hacking](https://rogerf5-security.github.io/Hardware_Hacking/). |
+| [Login Discover](https://github.com/RogerF5-Security/Login_Discover) | Public/local | Python / GUI / HTTP | Discovers login surfaces and supports controlled analysis of authentication requests and responses. |
 | [BLE Scout](https://github.com/RogerF5-Security/BLE-Scout) | Public/firmware | ESP32-S3 / BLE / Wi-Fi / C++ | Autonomous firmware for LILYGO T-Dongle-S3 that inventories BLE advertisements, deduplicates observations, displays a TFT radar and stores CSV/HTML evidence on microSD with a local mobile dashboard. [Download firmware](https://github.com/RogerF5-Security/BLE-Scout/releases/latest). |
-| [Scan Titan Zero Touch](https://github.com/RogerF5-Security/Scan-Titan) | Public/open-source | Python / asyncio / Nmap / Nuclei / OWASP ZAP | Automated offensive-security platform that connects reconnaissance, intelligent web tests, external engines, process-tree telemetry and traceable reporting in one Zero Touch execution. [Interactive demo](https://rogerf5-security.github.io/Scan-Titan/). |
+| [Scan Titan Zero Touch](https://github.com/RogerF5-Security/Scan-Titan) | Public/open-source | Python / asyncio / Nmap / Nuclei / OWASP ZAP | Automated offensive-security platform that connects reconnaissance, intelligent web tests, external engines, process-tree telemetry and traceable reporting in one Zero Touch execution. [Project website](https://rogerf5-security.github.io/Scan-Titan/). |
 | [Flipper Zero Emulador Didactico Web](https://github.com/RogerF5-Security/Flipper-Zero-Emulador-Didactico-Web) | Public/demo | JavaScript / Flipper Zero / Training | Browser-based didactic emulator for explaining Flipper Zero screens, workflows and security concepts. Demo: [rogerf5-security.github.io/Flipper-Zero-Emulador-Didactico-Web](https://rogerf5-security.github.io/Flipper-Zero-Emulador-Didactico-Web/). |
+| [Wireless Audit](https://github.com/RogerF5-Security/Wireless_Audit) | Public/local | Python / Wi-Fi / GUI | Wireless inventory, radar, wardriving and adapter diagnostics with local evidence exports. |
+| [IP Total](https://github.com/RogerF5-Security/IP_Total) | Public/local | Python / DNS / WHOIS / TLS | Profiles an IP or domain and exports HTML/JSON reports from GUI or CLI. |
 | [NFC QR Presenter](https://github.com/RogerF5-Security/NFC_QR_Presenter) | Public/catalog | Flipper Zero / C / NFC / QR | Flipper Zero external app that renders payloads as QR codes and emulates NFC NDEF tags. Catalog: [lab.flipper.net/apps/nfc_qr_presenter](https://lab.flipper.net/apps/nfc_qr_presenter). |
-| [Reportes-Burp](https://github.com/RogerF5-Security/Reportes-Burp) | Public | Burp Suite / Reporting | Repository focused on professional reporting, templates and evidence workflows for Burp Suite outputs. |
 | [Kraken Tres D](https://rogerf5-security.github.io/Kraken-Tres-D/) | Public/venture | 3D Printing / Entrepreneurship | Public space for the Kraken Tres D 3D-printing venture, prototypes, services and maker work. |
 | [RF5 RECON](https://github.com/RogerF5-Security/RF5-RECON) | Public / v3.1 | Chrome MV3 / Web Recon / JSON Evidence | Extensión de reconocimiento pasivo para IP DNS, cabeceras, CSP, cookies, tecnologías, formularios y endpoints observados. [Chrome Web Store](https://chromewebstore.google.com/detail/rf5-recon/ojibelahcinfehgdahcmamkinjjaabgd?hl=es) · [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/rf5-recon/). |
 | [Scan Titan Web Extension 2.1.0](https://chromewebstore.google.com/detail/scan-titan/epdbmbbfkmmhkfcfhlpncfkehgcaldcb) | Public/store | Browser Extension / Chrome Web Store | Published extension for web-audit workflows, evidence organization and browser-side review. Includes public [privacy](https://rogerf5arana.blogspot.com/p/politica-de-privacidad-de-scan-titan.html) and [support](https://rogerf5arana.blogspot.com/p/soporte-de-scan-titan-web-extension.html) pages. |
-| [AV--servers](https://github.com/RogerF5-Security/AV--servers) | Public | Python / Kali / Nmap / Nuclei | Modular scanner for authorized server and web assessments using Nmap, WhatWeb, Nuclei, Nikto, SMBMap and structured reports. |
-| WebSecAudit-RF | Local/private reference | Python GUI | Web security audit suite with plugins, authentication handling, dashboards and HTML reporting. |
-| AuditRF | Local/private reference | Python Framework | Modular audit framework for web testing, plugin execution and evidence automation. |
 | [Flipper Asset Maker](https://github.com/RogerF5-Security/Flipper_Assest_Maker) | Public | Python / Tkinter / PIL | Utility for building Flipper Zero assets, animations, packs and compatible folder structures. |
 | [WikiFlip](https://github.com/RogerF5-Security/WikiFlip) | Public/reference | Flipper Zero / C | Offline cybersecurity dictionary FAP with OWASP, NIST, RedTeam, BlueTeam and hardware hacking terms. Catalog: [lab.flipper.net/apps/wikiflip](https://lab.flipper.net/apps/wikiflip). |
 | [Mayan Decoder](https://github.com/RogerF5-Security/Mayan_decoder) | Public/reference | Flipper Zero / C | Flipper Zero FAP that converts decimal numbers into Mayan numerals with Canvas rendering. Catalog: [lab.flipper.net/apps/mayan_decoder](https://lab.flipper.net/apps/mayan_decoder). |
-| Nuclei-Gui | Local/private reference | Python GUI | Local interface for organizing Nuclei execution and results in audit workflows. |
-
-Local/private entries are mentioned as portfolio references only. Their source code is not included in this repository.
+The local applications and BLE firmware require installation or compatible hardware; the public web demos open directly in a browser.
 
 ## YouTube Previews
 

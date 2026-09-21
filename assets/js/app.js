@@ -259,7 +259,7 @@
             .filter(Boolean)
             .join(" ");
           const image = project.image
-            ? `<img class="project-image" src="${escapeHtml(project.image)}" alt="${escapeHtml(project.name)} preview" loading="lazy" />`
+            ? `<img class="project-image" src="${escapeHtml(project.image)}" alt="${escapeHtml(project.imageAlt || `Vista de ${project.name}`)}" loading="lazy" />`
             : "";
 
           return `<article class="${classes}">
