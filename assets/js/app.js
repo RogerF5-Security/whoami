@@ -109,10 +109,6 @@
   }
 
   function renderPortfolio() {
-    setText("heroName", "Roger Fernando Arana Lemus");
-    setText("heroRole", `${profile.identity.role} - ${profile.identity.location}`);
-    setText("heroBio", profile.bio[0]);
-
     renderInto(
       "heroFacts",
       [

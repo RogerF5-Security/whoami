@@ -330,6 +330,20 @@ h3 {
   overflow-wrap: anywhere;
 }
 
+.identity-output {
+  max-width: 100%;
+  margin: 0;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid rgba(57, 255, 20, 0.32);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  background: rgba(5, 10, 12, 0.82);
+  color: #e9fff0;
+  font: 700 clamp(15px, 1.6vw, 21px)/1.6 Consolas, "Courier New", monospace;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
