@@ -36,18 +36,6 @@ window.WHOAMI_PROFILE = {
     "Actualmente trabaja en una empresa privada telco, con foco en escaneo de vulnerabilidades, pentesting web/API/infraestructura, revision de codigo seguro, herramientas internas y estrategias de ciberseguridad.",
     "Construye herramientas propias en Python para automatizar auditorias, fuzzing, validacion de vulnerabilidades, explotacion controlada y laboratorios de hardware hacking."
   ],
-  academicTitles: [
-    {
-      title: "Profesor en Productividad y Desarrollo",
-      institution: "Universidad de San Carlos de Guatemala",
-      period: "2016 - 2018"
-    },
-    {
-      title: "Licenciado en Educación y Desarrollo Político Social",
-      institution: "Universidad de San Carlos de Guatemala",
-      period: "2018 - 2020"
-    }
-  ],
   cv: {
     summary: [
       "Nombre: Roger Fernando Arana Lemus.",

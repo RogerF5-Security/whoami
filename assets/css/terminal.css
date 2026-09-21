@@ -384,7 +384,7 @@ h3 {
 
 .fact-strip {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.75rem;
   grid-column: 1 / -1;
   max-width: 100%;
@@ -430,8 +430,6 @@ section[id] {
 }
 
 .section-head,
-.summary-grid,
-.academic-title-grid,
 .timeline,
 .skills-grid,
 .cert-grid,
@@ -479,38 +477,6 @@ section[id] {
   text-decoration: none;
 }
 
-.summary-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-.academic-title-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.academic-title-card {
-  border-color: rgba(189, 233, 36, 0.36);
-  background:
-    linear-gradient(145deg, rgba(189, 233, 36, 0.08), transparent 48%),
-    rgba(12, 21, 24, 0.9);
-}
-
-.academic-title-card h3 {
-  margin: 0.8rem 0 0.45rem;
-  color: var(--text);
-}
-
-.academic-title-card p {
-  margin: 0;
-  color: var(--text-soft);
-  line-height: 1.55;
-}
-
-.info-card,
 .skill-card,
 .project-card,
 .credential-card,
@@ -524,17 +490,6 @@ section[id] {
   box-shadow: 0 16px 38px rgba(0, 0, 0, 0.18);
 }
 
-.info-card {
-  padding: 1.15rem;
-}
-
-.info-card strong {
-  display: block;
-  color: var(--accent);
-  margin-bottom: 0.6rem;
-}
-
-.info-card p,
 .skill-card p,
 .project-card p,
 .timeline-item p {
@@ -1295,8 +1250,6 @@ section[id] {
   }
 
   .fact-strip,
-  .summary-grid,
-  .academic-title-grid,
   .skills-grid,
   .cert-grid,
   .credential-grid,
@@ -1403,8 +1356,6 @@ section[id] {
   }
 
   .fact-strip,
-  .summary-grid,
-  .academic-title-grid,
   .skills-grid,
   .cert-grid,
   .credential-grid,

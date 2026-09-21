@@ -114,37 +114,9 @@
       [
         ["Rol actual", "Seguridad ofensiva y desarrollo seguro en telco"],
         ["Especialidad", "Pentesting web, APIs, infraestructura y codigo seguro"],
-        ["Automation", "Python para auditorias, reporting, herramientas y PoC"],
-        ["Comunidad", "Speaker Pwn3dCON y facilitador en NicaSecurity"]
+        ["Automation", "Python para auditorias, reporting, herramientas y PoC"]
       ]
         .map(([title, text]) => `<div class="fact"><strong>${escapeHtml(title)}</strong><span>${escapeHtml(text)}</span></div>`)
-        .join("")
-    );
-
-    renderInto(
-      "profileSummary",
-      [
-        ["Identidad", `${profile.identity.name} / ${profile.identity.handle}. ${profile.identity.role}.`],
-        ["Ubicacion", `${profile.identity.location}. Espanol nativo e ingles basico.`],
-        ["Formación académica", "Profesor en Productividad y Desarrollo y Licenciado en Educación y Desarrollo Político Social, Universidad de San Carlos de Guatemala."],
-        ["Alcance", "Escaneo de vulnerabilidades, pentesting, revision de codigo seguro y hardening."],
-        ["Desarrollo", "Herramientas Python, automatizaciones y estrategias de ciberseguridad."],
-        ["Comunidad", "Speaker en Pwn3dCON y facilitador de talleres TechClinics en NicaSecurity."]
-      ]
-        .map(([title, text]) => `<article class="info-card"><strong>${escapeHtml(title)}</strong><p>${escapeHtml(text)}</p></article>`)
-        .join("")
-    );
-
-    renderInto(
-      "academicTitleGrid",
-      profile.academicTitles
-        .map(
-          (item) => `<article class="info-card academic-title-card">
-            <span class="status-pill">Titulo academico</span>
-            <h3>${escapeHtml(item.title)}</h3>
-            <p>${escapeHtml(item.institution)} | ${escapeHtml(item.period)}</p>
-          </article>`
-        )
         .join("")
     );
 
