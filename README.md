@@ -200,6 +200,13 @@ Additional approved visual credentials are included in `assets/img/credentials/`
 - PWN3D! CON 2024.
 - HackemCON 2022.
 
+### Talk and Workshop Photos
+
+| FIT Galileo 2026 · Flipper Zero | Pwn3d Tools 2026 |
+| --- | --- |
+| <a href="assets/img/evidence/fit-galileo-2026-flipper-zero.png"><img src="assets/img/evidence/fit-galileo-2026-flipper-zero.png" alt="Taller de Flipper Zero y hardware utilizado en FIT Galileo 2026" width="100%" /></a> | <a href="assets/img/evidence/pwn3d-tools-2026-escenario.png"><img src="assets/img/evidence/pwn3d-tools-2026-escenario.png" alt="Charla de PWN3D! Tools 2026 en el escenario" width="100%" /></a> |
+| <a href="assets/img/evidence/fit-galileo-2026-aula.png"><img src="assets/img/evidence/fit-galileo-2026-aula.png" alt="Taller de Flipper Zero en el aula de Universidad Galileo" width="100%" /></a> | <a href="assets/img/evidence/pwn3d-tools-2026-scan-titan.png"><img src="assets/img/evidence/pwn3d-tools-2026-scan-titan.png" alt="Presentación de Scan Titan en Pwn3d Tools 2026" width="100%" /></a> |
+
 ## Languages
 
 - Spanish - Native.

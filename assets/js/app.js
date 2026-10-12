@@ -191,8 +191,12 @@
       "communityGrid",
       profile.community
         .map(
-          (item) => `<article class="evidence-card${item.image ? "" : " evidence-card--text"}">
-            ${item.image ? `<img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" />` : ""}
+          (item) => `<article class="evidence-card${item.image || item.photos?.length ? "" : " evidence-card--text"}">
+            ${item.photos?.length ? `<div class="evidence-gallery">${item.photos.map((photo) => `
+              <a href="${escapeHtml(photo.image)}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar: ${escapeHtml(photo.caption)}">
+                <img src="${escapeHtml(photo.image)}" alt="${escapeHtml(photo.caption)}" loading="lazy" />
+                <span>${escapeHtml(photo.caption)}</span>
+              </a>`).join("")}</div>` : item.image ? `<img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" />` : ""}
             <div>
               <span class="status-pill">${escapeHtml(item.role)}</span>
               <h3>${escapeHtml(item.title)}</h3>

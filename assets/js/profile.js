@@ -138,12 +138,20 @@ window.WHOAMI_PROFILE = {
       title: "FIT Galileo 2026",
       role: "Tallerista",
       topic: "Taller de Flipper Zero en FIT Galileo 2026.",
+      photos: [
+        { image: "assets/img/evidence/fit-galileo-2026-flipper-zero.png", caption: "Taller de Flipper Zero y hardware utilizado" },
+        { image: "assets/img/evidence/fit-galileo-2026-aula.png", caption: "Taller en el aula · Universidad Galileo" }
+      ],
       links: [["Ver presentación", "https://rogerf5-security.github.io/Flipper-Zero-Emulador-Didactico-Web/presentacion.html"]]
     },
     {
       title: "Pwn3d Tools 2026",
       role: "Ponente",
       topic: "Charla sobre Pwn3d Tools.",
+      photos: [
+        { image: "assets/img/evidence/pwn3d-tools-2026-escenario.png", caption: "PWN3D! Tools · charla en el escenario" },
+        { image: "assets/img/evidence/pwn3d-tools-2026-scan-titan.png", caption: "Presentación de Scan Titan" }
+      ],
       links: [["Ver herramientas", "https://rogerf5-security.github.io/Pwn3dToolSet/"]]
     },
     {

@@ -745,6 +745,41 @@ section[id] {
   grid-template-rows: 1fr;
 }
 
+.evidence-card .evidence-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  padding: 0.75rem;
+}
+
+.evidence-gallery a {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgba(53, 215, 255, 0.16);
+  border-radius: 6px;
+  background: var(--bg);
+}
+
+.evidence-gallery img {
+  display: block;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+}
+
+.evidence-gallery span {
+  display: block;
+  padding: 0.65rem;
+  color: var(--text-soft);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .evidence-card .evidence-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
 .community-events {
   margin-top: 2rem;
 }
