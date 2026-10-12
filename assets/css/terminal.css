@@ -436,6 +436,7 @@ section[id] {
 .credential-grid,
 .badge-grid,
 .evidence-grid,
+.community-events,
 .two-column,
 .projects-grid,
 .video-grid,
@@ -738,6 +739,32 @@ section[id] {
   margin: 0;
   color: var(--text-soft);
   line-height: 1.65;
+}
+
+.evidence-card--text {
+  grid-template-rows: 1fr;
+}
+
+.community-events {
+  margin-top: 2rem;
+}
+
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.event-card {
+  padding: 1.15rem;
+  border: 1px solid rgba(53, 215, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(12, 21, 24, 0.88);
+}
+
+.event-card h3 {
+  margin: 0.75rem 0 0;
+  color: var(--text);
 }
 
 .two-column {

@@ -191,15 +191,26 @@
       "communityGrid",
       profile.community
         .map(
-          (item) => `<article class="evidence-card">
-            <img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" />
+          (item) => `<article class="evidence-card${item.image ? "" : " evidence-card--text"}">
+            ${item.image ? `<img src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}" loading="lazy" />` : ""}
             <div>
               <span class="status-pill">${escapeHtml(item.role)}</span>
               <h3>${escapeHtml(item.title)}</h3>
               <p>${escapeHtml(item.topic)}</p>
+              ${(item.links || []).map(([label, href]) => link(label, href)).join("")}
             </div>
           </article>`
         )
+        .join("")
+    );
+
+    renderInto(
+      "eventGrid",
+      profile.events
+        .map((event) => `<article class="event-card">
+          <span class="status-pill">${escapeHtml(event.role)} · ${escapeHtml(event.year)}</span>
+          <h3>${escapeHtml(event.title)}</h3>
+        </article>`)
         .join("")
     );
 

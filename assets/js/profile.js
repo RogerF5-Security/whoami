@@ -83,6 +83,9 @@ window.WHOAMI_PROFILE = {
       "Universidad Mariano Galvez de Guatemala - Maestria en Informatica Aplicada (2022)."
     ],
     training: [
+      "Introduction to Offensive Security with Artificial Intelligence, Red Team Leaders (02-10-2026).",
+      "Iniciación al Desarrollo con IA - El Nuevo Programador, BIG School y mouredev (02-10-2026).",
+      "PWN3DCON Vol. 3 - Diploma de conferencias, PWN3D! (09-2026).",
       "Certified AI Security Specialist - CAIS, Hack & Fix (2026).",
       "Understanding the OWASP Top 10 Security Threats - SKF100, The Linux Foundation (2026).",
       "ATM Penetration Testing & Security Assessment, Red Team Leaders (2026).",
@@ -101,11 +104,6 @@ window.WHOAMI_PROFILE = {
       "Microsoft AI Skills Fest 2026.",
       "Microsoft Learn - Microsoft 365 Copilot Chat achievements (2026).",
       "Certified Cybersecurity Educator Professional - CCEP, Red Team Leaders (2025).",
-      "Control efectivo de la corrupcion - America Latina (2025).",
-      "Introduccion a la seguridad de la informacion (2025).",
-      "Proteccion de datos personales en America Movil (2025).",
-      "Programa de Integridad y Cumplimiento (2025).",
-      "Codigo de Etica (2025).",
       "Mile2 C)PTE - Certified Penetration Testing Engineer (2024).",
       "Mile2 C)PEH - Certified Professional Ethical Hacker (2024).",
       "Cisco Ethical Hacker (2024).",
@@ -137,6 +135,18 @@ window.WHOAMI_PROFILE = {
   },
   community: [
     {
+      title: "FIT Galileo 2026",
+      role: "Tallerista",
+      topic: "Taller de Flipper Zero en FIT Galileo 2026.",
+      links: [["Ver presentación", "https://rogerf5-security.github.io/Flipper-Zero-Emulador-Didactico-Web/presentacion.html"]]
+    },
+    {
+      title: "Pwn3d Tools 2026",
+      role: "Ponente",
+      topic: "Charla sobre Pwn3d Tools.",
+      links: [["Ver herramientas", "https://rogerf5-security.github.io/Pwn3dToolSet/"]]
+    },
+    {
       title: "Pwn3dCON Community Sessions",
       role: "Speaker",
       topic: "Explorando la seguridad web: introduccion a Burp Suite y herramientas clave.",
@@ -148,6 +158,12 @@ window.WHOAMI_PROFILE = {
       topic: "Fundamentos y metodologias de Hardware Hacking - Ciclo 05. Taller de 10 horas en 4 sesiones.",
       image: "assets/img/evidence/nicasecurity-hardware-hacking.jpeg"
     }
+  ],
+  events: [
+    { title: "Ekoparty 2026", year: "2026", role: "Asistente" },
+    { title: "PWN3D! CON 2026", year: "2026", role: "Asistente" },
+    { title: "PWN3D! CON 2024", year: "2024", role: "Asistente" },
+    { title: "HackemCON 2022", year: "2022", role: "Asistente" }
   ],
   credlyBadges: [
     {
@@ -187,6 +203,24 @@ window.WHOAMI_PROFILE = {
     }
   ],
   credentialHighlights: [
+    {
+      title: "Introduction to Offensive Security with Artificial Intelligence (2026)",
+      issuer: "Red Team Leaders",
+      category: "Seguridad ofensiva e IA",
+      image: "assets/img/credentials/red-team-leaders-offensive-security-ai.jpg"
+    },
+    {
+      title: "Iniciación al Desarrollo con IA - El Nuevo Programador (2026)",
+      issuer: "BIG School y mouredev",
+      category: "Desarrollo con IA",
+      image: "assets/img/credentials/bigschool-mouredev-desarrollo-ia.jpg"
+    },
+    {
+      title: "PWN3DCON Vol. 3 - Diploma de conferencias (2026)",
+      issuer: "PWN3D!",
+      category: "Participación en eventos",
+      image: "assets/img/credentials/pwn3dcon-2026.jpg"
+    },
     {
       title: "Mile2 C)PTE - Certified Penetration Testing Engineer (2024)",
       issuer: "Mile2 Cybersecurity Certifications",

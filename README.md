@@ -97,6 +97,9 @@ Public contact is routed through professional profiles. Personal phone and email
 
 ## Certifications And Training
 
+- Introduction to Offensive Security with Artificial Intelligence, Red Team Leaders (02-10-2026).
+- Iniciación al Desarrollo con IA - El Nuevo Programador, BIG School y mouredev (02-10-2026).
+- PWN3DCON Vol. 3 - Diploma de conferencias, PWN3D! (09-2026).
 - Certified AI Security Specialist - CAIS, Hack & Fix (2026).
 - Understanding the OWASP Top 10 Security Threats - SKF100, The Linux Foundation (2026).
 - Mile2 C)PTE - Certified Penetration Testing Engineer (2024).
@@ -119,11 +122,6 @@ Public contact is routed through professional profiles. Personal phone and email
 - LFS101: Introduction to Linux, The Linux Foundation (2026).
 - Microsoft AI Skills Fest 2026.
 - Microsoft Learn - Microsoft 365 Copilot Chat achievements (2026).
-- Control efectivo de la corrupcion - America Latina (2025).
-- Introduccion a la seguridad de la informacion (2025).
-- Proteccion de datos personales en America Movil (2025).
-- Programa de Integridad y Cumplimiento (2025).
-- Codigo de Etica (2025).
 - Udemy Curso de Domotica (07-2023).
 - Cisco Introduction to Cybersecurity (04-2023).
 - Fortinet Network Security Expert 1 (04-2023).
@@ -173,6 +171,10 @@ Public contact is routed through professional profiles. Personal phone and email
 
 ### Recent Training
 
+| Offensive Security with AI | Iniciación al Desarrollo con IA | PWN3DCON Vol. 3 |
+| --- | --- | --- |
+| <a href="assets/img/credentials/red-team-leaders-offensive-security-ai.jpg"><img src="assets/img/credentials/red-team-leaders-offensive-security-ai.jpg" alt="Red Team Leaders Introduction to Offensive Security with Artificial Intelligence" width="100%" /></a> | <a href="assets/img/credentials/bigschool-mouredev-desarrollo-ia.jpg"><img src="assets/img/credentials/bigschool-mouredev-desarrollo-ia.jpg" alt="BIG School y mouredev Iniciación al Desarrollo con IA" width="100%" /></a> | <a href="assets/img/credentials/pwn3dcon-2026.jpg"><img src="assets/img/credentials/pwn3dcon-2026.jpg" alt="PWN3DCON Vol. 3 Diploma de conferencias" width="100%" /></a> |
+
 | AI Security | Application Security |
 | --- | --- |
 | <a href="assets/img/credentials/hackfix-cais.png"><img src="assets/img/credentials/hackfix-cais.png" alt="Hack and Fix Certified AI Security Specialist" width="100%" /></a> | <a href="assets/img/credentials/linux-foundation-skf100.png"><img src="assets/img/credentials/linux-foundation-skf100.png" alt="Linux Foundation Understanding the OWASP Top 10 Security Threats SKF100" width="100%" /></a> |
@@ -186,8 +188,17 @@ Additional approved visual credentials are included in `assets/img/credentials/`
 
 ## Community
 
+- **FIT Galileo 2026 - Tallerista:** Taller de Flipper Zero. [Presentación](https://rogerf5-security.github.io/Flipper-Zero-Emulador-Didactico-Web/presentacion.html).
+- **Pwn3d Tools 2026 - Ponente:** Charla sobre Pwn3d Tools. [Herramientas](https://rogerf5-security.github.io/Pwn3dToolSet/).
 - **Pwn3dCON Community Sessions - Speaker:** Explorando la seguridad web: introduccion a Burp Suite y herramientas clave.
 - **NicaSecurity Hub TechClinics - Facilitador:** Fundamentos y metodologias de Hardware Hacking - Ciclo 05, taller de 10 horas en 4 sesiones.
+
+### Events Attended
+
+- Ekoparty 2026.
+- PWN3D! CON 2026.
+- PWN3D! CON 2024.
+- HackemCON 2022.
 
 ## Languages
 
