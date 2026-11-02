@@ -33,11 +33,15 @@ CERTS    : Mile2 C)PTE | Mile2 C)PEH | Hack & Fix CAIS | CCEP | Cisco Ethical Ha
 
 Roger Fernando Arana Lemus is a systems engineer focused on offensive security, secure development, vulnerability management, pentesting and cybersecurity tooling.
 
+He also performs security audits of AI chats and assistants.
+
 Since **November 2025**, he has worked as **Ingeniero en Seguridad Ofensiva y Desarrollo Seguro** in a private telco company, combining vulnerability scanning, pentesting, secure code review, internal tooling and cybersecurity strategy.
 
 Public contact is routed through professional profiles. Personal phone and email from the source CV are intentionally not exposed in this public repository.
 
 ## Core Skills
+
+- **AI Security Auditing:** security assessments of AI chats and chatbots, evaluation of security controls, and finding validation.
 
 <p>
   <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux" />
@@ -97,6 +101,7 @@ Public contact is routed through professional profiles. Personal phone and email
 
 ## Certifications And Training
 
+- Ekoparty Security Conference 2026 - Attendance certificate (October 7–9, 2026).
 - Introduction to Offensive Security with Artificial Intelligence, Red Team Leaders (02-10-2026).
 - Iniciación al Desarrollo con IA - El Nuevo Programador, BIG School y mouredev (02-10-2026).
 - PWN3DCON Vol. 3 - Diploma de conferencias, PWN3D! (09-2026).
@@ -170,6 +175,8 @@ Public contact is routed through professional profiles. Personal phone and email
 | <a href="assets/img/credentials/red-team-leaders-atm-pentest.png"><img src="assets/img/credentials/red-team-leaders-atm-pentest.png" alt="Red Team Leaders ATM Penetration Testing and Security Assessment" width="100%" /></a> | <a href="assets/img/credentials/red-team-leaders-hardware-hacking.png"><img src="assets/img/credentials/red-team-leaders-hardware-hacking.png" alt="Red Team Leaders Hardware Hacking Introduction" width="100%" /></a> |
 
 ### Recent Training
+
+[![Ekoparty Security Conference 2026 attendance certificate](assets/img/credentials/ekoparty-2026-asistencia.jpg)](assets/img/credentials/ekoparty-2026-asistencia.jpg)
 
 | Offensive Security with AI | Iniciación al Desarrollo con IA | PWN3DCON Vol. 3 |
 | --- | --- | --- |

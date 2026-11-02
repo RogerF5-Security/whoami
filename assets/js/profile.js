@@ -11,6 +11,10 @@ window.WHOAMI_PROFILE = {
   certifications: ["Mile2 C)PTE", "Mile2 C)PEH", "Cisco Ethical Hacker", "Fortinet NSE 1", "Hack & Fix CAIS"],
   skills: [
     {
+      area: "Auditoría de IA",
+      items: ["Auditoría de chats de IA", "Evaluación de seguridad de chatbots", "Validación de hallazgos"]
+    },
+    {
       area: "Offensive Security",
       items: ["Web pentesting", "Mobile security", "API security", "Infrastructure assessment", "ATM security testing"]
     },
@@ -34,14 +38,15 @@ window.WHOAMI_PROFILE = {
   bio: [
     "Roger Arana también conocido como Roger F5, Ingeniero en Sistemas.",
     "Actualmente trabaja en una empresa privada telco, con foco en escaneo de vulnerabilidades, pentesting web/API/infraestructura, revision de codigo seguro, herramientas internas y estrategias de ciberseguridad.",
-    "Construye herramientas propias en Python para automatizar auditorias, fuzzing, validacion de vulnerabilidades, explotacion controlada y laboratorios de hardware hacking."
+    "Construye herramientas propias en Python para automatizar auditorias, fuzzing, validacion de vulnerabilidades, explotacion controlada y laboratorios de hardware hacking.",
+    "También realiza auditorías de seguridad de chats y asistentes de inteligencia artificial."
   ],
   cv: {
     summary: [
       "Nombre: Roger Fernando Arana Lemus.",
       "Ubicacion: Zacapa, Guatemala.",
       "Perfil: Ingeniero en Sistemas | Profesor en Productividad y Desarrollo | Licenciado en Educación y Desarrollo Político Social | Ingeniero en Seguridad Ofensiva y Desarrollo Seguro.",
-      "Especialidad: pentesting web, movil, APIs, infraestructura, ATMs, revision de codigo seguro, automatizacion de auditorias y hardware hacking.",
+      "Especialidad: pentesting web, movil, APIs, infraestructura, ATMs, auditoría de chats de IA, revision de codigo seguro, automatizacion de auditorias y hardware hacking.",
       "Certificaciones principales: Mile2 C)PTE, Mile2 C)PEH, Hack & Fix CAIS, Cisco Ethical Hacker, Fortinet NSE 1 y CCEP."
     ],
     experience: [
@@ -83,6 +88,7 @@ window.WHOAMI_PROFILE = {
       "Universidad Mariano Galvez de Guatemala - Maestria en Informatica Aplicada (2022)."
     ],
     training: [
+      "Ekoparty Security Conference 2026 - Certificado de asistencia (7 al 9 de octubre de 2026).",
       "Introduction to Offensive Security with Artificial Intelligence, Red Team Leaders (02-10-2026).",
       "Iniciación al Desarrollo con IA - El Nuevo Programador, BIG School y mouredev (02-10-2026).",
       "PWN3DCON Vol. 3 - Diploma de conferencias, PWN3D! (09-2026).",
@@ -211,6 +217,12 @@ window.WHOAMI_PROFILE = {
     }
   ],
   credentialHighlights: [
+    {
+      title: "Ekoparty Security Conference 2026 - Certificado de asistencia",
+      issuer: "Ekoparty",
+      category: "Asistencia a eventos",
+      image: "assets/img/credentials/ekoparty-2026-asistencia.jpg"
+    },
     {
       title: "Introduction to Offensive Security with Artificial Intelligence (2026)",
       issuer: "Red Team Leaders",
