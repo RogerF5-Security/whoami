@@ -88,6 +88,7 @@ window.WHOAMI_PROFILE = {
       "Universidad Mariano Galvez de Guatemala - Maestria en Informatica Aplicada (2022)."
     ],
     training: [
+      "Physical PenTest Fundamentals, Red Team Leaders (06-11-2026).",
       "Ekoparty Security Conference 2026 - Certificado de asistencia (7 al 9 de octubre de 2026).",
       "Introduction to Offensive Security with Artificial Intelligence, Red Team Leaders (02-10-2026).",
       "Iniciación al Desarrollo con IA - El Nuevo Programador, BIG School y mouredev (02-10-2026).",
@@ -217,6 +218,14 @@ window.WHOAMI_PROFILE = {
     }
   ],
   credentialHighlights: [
+    {
+      title: "Physical PenTest Fundamentals (2026)",
+      issuer: "Red Team Leaders",
+      category: "Seguridad física / Pentesting",
+      image: "assets/img/credentials/red-team-leaders-physical-pentest.jpg",
+      issued: "6 de noviembre de 2026",
+      url: "https://courses.redteamleaders.com/completion/c1eea4297e849180"
+    },
     {
       title: "Ekoparty Security Conference 2026 - Certificado de asistencia",
       issuer: "Ekoparty",

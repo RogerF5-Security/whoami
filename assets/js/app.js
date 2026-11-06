@@ -167,6 +167,8 @@
               <span class="status-pill">${escapeHtml(item.category)}</span>
               <h3>${escapeHtml(item.title)}</h3>
               <p>${escapeHtml(item.issuer)}</p>
+              ${item.issued ? `<p>Emitido: ${escapeHtml(item.issued)}</p>` : ""}
+              ${item.url ? link("Verificar credencial", item.url) : ""}
             </div>
           </article>`;
         })

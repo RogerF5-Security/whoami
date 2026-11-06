@@ -101,6 +101,7 @@ Public contact is routed through professional profiles. Personal phone and email
 
 ## Certifications And Training
 
+- Physical PenTest Fundamentals, Red Team Leaders (November 6, 2026). [Verify certificate](https://courses.redteamleaders.com/completion/c1eea4297e849180).
 - Ekoparty Security Conference 2026 - Attendance certificate (October 7–9, 2026).
 - Introduction to Offensive Security with Artificial Intelligence, Red Team Leaders (02-10-2026).
 - Iniciación al Desarrollo con IA - El Nuevo Programador, BIG School y mouredev (02-10-2026).
@@ -175,6 +176,8 @@ Public contact is routed through professional profiles. Personal phone and email
 | <a href="assets/img/credentials/red-team-leaders-atm-pentest.png"><img src="assets/img/credentials/red-team-leaders-atm-pentest.png" alt="Red Team Leaders ATM Penetration Testing and Security Assessment" width="100%" /></a> | <a href="assets/img/credentials/red-team-leaders-hardware-hacking.png"><img src="assets/img/credentials/red-team-leaders-hardware-hacking.png" alt="Red Team Leaders Hardware Hacking Introduction" width="100%" /></a> |
 
 ### Recent Training
+
+[![Physical PenTest Fundamentals - Red Team Leaders](assets/img/credentials/red-team-leaders-physical-pentest.jpg)](https://courses.redteamleaders.com/completion/c1eea4297e849180)
 
 [![Ekoparty Security Conference 2026 attendance certificate](assets/img/credentials/ekoparty-2026-asistencia.jpg)](assets/img/credentials/ekoparty-2026-asistencia.jpg)
 
