@@ -8,7 +8,7 @@ window.WHOAMI_PROFILE = {
     tagline: "Recon faster. Validate deeper. Report cleaner. Harden smarter.",
     mode: "Authorized offensive security | Python automation | Hardware hacking"
   },
-  certifications: ["Mile2 C)PTE", "Mile2 C)PEH", "Cisco Ethical Hacker", "Fortinet NSE 1", "Hack & Fix CAIS"],
+  certifications: ["Certiprof AIAM", "Mile2 C)PTE", "Mile2 C)PEH", "Cisco Ethical Hacker", "Fortinet NSE 1", "Hack & Fix CAIS"],
   skills: [
     {
       area: "Auditoría de IA",
@@ -47,7 +47,7 @@ window.WHOAMI_PROFILE = {
       "Ubicacion: Zacapa, Guatemala.",
       "Perfil: Ingeniero en Sistemas | Profesor en Productividad y Desarrollo | Licenciado en Educación y Desarrollo Político Social | Ingeniero en Seguridad Ofensiva y Desarrollo Seguro.",
       "Especialidad: pentesting web, movil, APIs, infraestructura, ATMs, auditoría de chats de IA, revision de codigo seguro, automatizacion de auditorias y hardware hacking.",
-      "Certificaciones principales: Mile2 C)PTE, Mile2 C)PEH, Hack & Fix CAIS, Cisco Ethical Hacker, Fortinet NSE 1 y CCEP."
+      "Certificaciones principales: Certiprof AIAM, Mile2 C)PTE, Mile2 C)PEH, Hack & Fix CAIS, Cisco Ethical Hacker, Fortinet NSE 1 y CCEP."
     ],
     experience: [
       {
@@ -88,6 +88,11 @@ window.WHOAMI_PROFILE = {
       "Universidad Mariano Galvez de Guatemala - Maestria en Informatica Aplicada (2022)."
     ],
     training: [
+      "AI Agent Manager Professional Certification (AIAM), Certiprof (13-11-2026; vigencia hasta 13-11-2029).",
+      "Lifelong Learning 2026, Certiprof (10-11-2026).",
+      "Seguridad en Redes de Telecomunicaciones, Technology Core (05-11-2026; 3 horas).",
+      "Python Nivel Avanzado, Kinal - Escuela Técnica Superior (23-06-2026; 50 horas).",
+      "Python Nivel Principiante, Kinal - Escuela Técnica Superior (27-05-2026; 50 horas).",
       "Physical PenTest Fundamentals, Red Team Leaders (06-11-2026).",
       "Ekoparty Security Conference 2026 - Certificado de asistencia (7 al 9 de octubre de 2026).",
       "Introduction to Offensive Security with Artificial Intelligence, Red Team Leaders (02-10-2026).",
@@ -182,6 +187,13 @@ window.WHOAMI_PROFILE = {
   ],
   credlyBadges: [
     {
+      "name": "Lifelong Learning 2026",
+      "issuer": "Certiprof",
+      "issued": "10 nov 2026",
+      "url": "https://www.credly.com/badges/7c39d99d-fcc6-430a-a8ef-2b32e3243fd6",
+      "image": "https://images.credly.com/images/5e2afabf-62f3-48ae-bbed-7e57c2e78c6a/blob"
+    },
+    {
       name: "SKF100: Understanding the OWASP Top 10 Security Threats",
       issuer: "The Linux Foundation",
       issued: "18 ago 2026",
@@ -218,6 +230,37 @@ window.WHOAMI_PROFILE = {
     }
   ],
   credentialHighlights: [
+    {
+      "title": "AI Agent Manager Professional Certification (AIAM)",
+      "issuer": "Certiprof",
+      "category": "Agentes de IA",
+      "image": "assets/img/credentials/certiprof-ai-agent-manager.jpg",
+      "issued": "13 de noviembre de 2026",
+      "expires": "13 de noviembre de 2029",
+      "featured": true,
+      "featuredLabel": "Certiprof / Certificación destacada"
+    },
+    {
+      "title": "Seguridad en Redes de Telecomunicaciones (2026)",
+      "issuer": "Technology Core",
+      "category": "Seguridad de redes",
+      "image": "assets/img/credentials/technology-core-seguridad-redes.jpg",
+      "issued": "5 de noviembre de 2026"
+    },
+    {
+      "title": "Python Nivel Avanzado (2026)",
+      "issuer": "Kinal - Escuela Técnica Superior",
+      "category": "Python / 50 horas",
+      "image": "assets/img/credentials/kinal-python-avanzado.jpg",
+      "issued": "23 de junio de 2026"
+    },
+    {
+      "title": "Python Nivel Principiante (2026)",
+      "issuer": "Kinal - Escuela Técnica Superior",
+      "category": "Python / 50 horas",
+      "image": "assets/img/credentials/kinal-python-principiante.jpg",
+      "issued": "27 de mayo de 2026"
+    },
     {
       title: "Physical PenTest Fundamentals (2026)",
       issuer: "Red Team Leaders",

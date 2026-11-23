@@ -101,6 +101,12 @@ Public contact is routed through professional profiles. Personal phone and email
 
 ## Certifications And Training
 
+- AI Agent Manager Professional Certification (AIAM), Certiprof (13-11-2026; vigencia hasta 13-11-2029).
+- Lifelong Learning 2026, Certiprof (10-11-2026).
+- Seguridad en Redes de Telecomunicaciones, Technology Core (05-11-2026; 3 horas).
+- Python Nivel Avanzado, Kinal - Escuela Técnica Superior (23-06-2026; 50 horas).
+- Python Nivel Principiante, Kinal - Escuela Técnica Superior (27-05-2026; 50 horas).
+
 - Physical PenTest Fundamentals, Red Team Leaders (November 6, 2026). [Verify certificate](https://courses.redteamleaders.com/completion/c1eea4297e849180).
 - Ekoparty Security Conference 2026 - Attendance certificate (October 7–9, 2026).
 - Introduction to Offensive Security with Artificial Intelligence, Red Team Leaders (02-10-2026).
@@ -153,6 +159,8 @@ Public contact is routed through professional profiles. Personal phone and email
 
 ## Credly Badges
 
+- [Lifelong Learning 2026 - Certiprof](https://www.credly.com/badges/7c39d99d-fcc6-430a-a8ef-2b32e3243fd6)
+
 - [SKF100: Understanding the OWASP Top 10 Security Threats - The Linux Foundation](https://www.credly.com/badges/2f1c9236-24fe-4be4-866f-88f72edfd0bc)
 - [AI Skills Fest 2026 - Microsoft](https://www.credly.com/badges/2f0d9868-9fa9-4125-95a0-e2565339439a)
 - [LFS101: Introduction to Linux - The Linux Foundation](https://www.credly.com/badges/22dc45c8-4039-4579-9a14-a61f489636eb)
@@ -176,6 +184,14 @@ Public contact is routed through professional profiles. Personal phone and email
 | <a href="assets/img/credentials/red-team-leaders-atm-pentest.png"><img src="assets/img/credentials/red-team-leaders-atm-pentest.png" alt="Red Team Leaders ATM Penetration Testing and Security Assessment" width="100%" /></a> | <a href="assets/img/credentials/red-team-leaders-hardware-hacking.png"><img src="assets/img/credentials/red-team-leaders-hardware-hacking.png" alt="Red Team Leaders Hardware Hacking Introduction" width="100%" /></a> |
 
 ### Recent Training
+
+| AI Agent Manager (AIAM) | Seguridad en Redes de Telecomunicaciones |
+| --- | --- |
+| ![Certiprof AIAM](assets/img/credentials/certiprof-ai-agent-manager.jpg) | ![Technology Core](assets/img/credentials/technology-core-seguridad-redes.jpg) |
+
+| Python Nivel Avanzado - 50 horas | Python Nivel Principiante - 50 horas |
+| --- | --- |
+| ![Kinal Python Avanzado](assets/img/credentials/kinal-python-avanzado.jpg) | ![Kinal Python Principiante](assets/img/credentials/kinal-python-principiante.jpg) |
 
 [![Physical PenTest Fundamentals - Red Team Leaders](assets/img/credentials/red-team-leaders-physical-pentest.jpg)](https://courses.redteamleaders.com/completion/c1eea4297e849180)
 
